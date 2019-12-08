@@ -19,7 +19,6 @@ const Topbar = class extends React.Component {
                 aria-label="top-navigation"
             >
                 <div className="container">
-                    <button className="btn btn-primary">Merda</button>
                     <div className="navbar-brand">
                         <Link to="/" className="navbar-item" title="Logo">
                             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />

@@ -1,15 +1,15 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import NavigationBar from '../components/Navigationbar'
 import 'bootstrap';
-import './all.scss'
+import '../styles/all.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import Topbar from "./Topbar";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -51,7 +51,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Topbar />
-      <Navbar />
+      <NavigationBar />
       <div>{children}</div>
       <Footer />
     </div>
