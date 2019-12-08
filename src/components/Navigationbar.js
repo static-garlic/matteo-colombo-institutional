@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'gatsby'
-import {Button, Collapse, Nav, Navbar, NavbarToggler, NavItem} from "reactstrap";
+import {Button, Collapse, Container, Nav, Navbar, NavbarToggler, NavItem} from "reactstrap";
 
 const NavigationBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,10 +8,11 @@ const NavigationBar = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar color="white" light className="navbar-expand-md">
-                <Link to="/" className="navbar-brand" title="Logo">
-                    <Button color="primary">LOGO</Button>
-                </Link>
+        <Navbar color="white" light className="navbar-expand-lg py-3">
+            <Container fluid>
+            <Link to="/" className="navbar-brand" title="Logo">
+                <Button color="primary">LOGO</Button>
+            </Link>
             <NavbarToggler onClick={toggle}/>
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="mr-auto" navbar>
@@ -57,6 +58,7 @@ const NavigationBar = () => {
                     </NavItem>
                 </Nav>
             </Collapse>
+            </Container>
         </Navbar>
     )
 };
