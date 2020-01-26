@@ -18,12 +18,12 @@ export const IndexPageTemplate = ({
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             }) no-repeat center center`,
         height: "30rem",
-        "background-size": "cover"
+        backgroundSize: "cover"
       }}
       >
         <Row>
           <Col sm={{size: 6, offset: 1}}>
-            <h1 className="py-2 text-primary">
+            <h1 className="py-2 text-primary ">
               {title}
             </h1>
           </Col>

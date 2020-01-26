@@ -22,7 +22,7 @@ export const SectionCards = ({sectionCards}) => (
         }
       </Row>
     </div>
-)
+);
 
 SectionCards.propTypes = {
   sectionCards: PropTypes.arrayOf(
@@ -32,4 +32,4 @@ SectionCards.propTypes = {
         sectionDesc: PropTypes.string,
       })
   ),
-}
+};

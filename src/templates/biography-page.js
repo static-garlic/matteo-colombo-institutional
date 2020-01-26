@@ -1,63 +1,82 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Content, {HTMLContent} from '../components/Content'
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import Container from "reactstrap/es/Container";
+import Col from "reactstrap/es/Col";
+import {Row} from "reactstrap";
 
-export const BiographyPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const BiographyPageTemplate = ({title, content, contentComponent, relativeLinks}) => {
+  const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <Fragment>
+        <SectionJumbotron title={title} />
+        <Container>
+          <Row>
+            <Col>
+              <p>
+                <PageContent className="content" content={content}/>
+              </p>
+              {
+                relativeLinks.map(relativeLink =>
+                    <p>
+                      {`${relativeLink.text} `}
+                      <Link to={relativeLink.link}>
+                        {relativeLink.linkText}
+                      </Link>
+                    </p>
+                )
+              }
+            </Col>
+          </Row>
+        </Container>
+      </Fragment>
   )
-}
+};
 
 BiographyPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-}
+  relativeLinks: PropTypes.array
+};
 
-const BiographyPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const BiographyPage = ({data}) => {
+  const {markdownRemark: biography} = data;
 
   return (
-    <Layout>
-      <BiographyPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
-    </Layout>
+      <Layout>
+        <BiographyPageTemplate
+            contentComponent={HTMLContent}
+            title={biography.frontmatter.title}
+            content={biography.html}
+            relativeLinks={biography.frontmatter.relativeLinks}
+        />
+      </Layout>
   )
-}
+};
 
 BiographyPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
 export default BiographyPage
 
 export const biographyPage = graphql`
-  query BiographyPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query BiographyPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "biography-page" } }) {
       html
       frontmatter {
         title
+        relativeLinks {
+          text
+          linkText
+          link
+        }
       }
     }
   }
-`
+`;
