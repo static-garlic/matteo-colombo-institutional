@@ -78,7 +78,7 @@ export const pageQuery = graphql`
           }
         }
         sectionCards {
-          image {
+          sectionImage {
             childImageSharp {
               fluid(maxWidth: 240, quality: 64) {
                 ...GatsbyImageSharpFluid

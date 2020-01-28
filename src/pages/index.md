@@ -6,11 +6,11 @@ image: /img/home-jumbotron.png
 sectionCards:
   - sectionTitle: Publications
     sectionDesc: A list of articles is available here
-    image: /img/publications-card.png
+    sectionImage: /img/publications-card.png
   - sectionTitle: Infographics
     sectionDesc: A sample of graphic works is available here
-    image: /img/infographics-card.png
+    sectionImage: /img/infographics-card.png
   - sectionTitle: Media
     sectionDesc: A list of interviews is available here
-    image: /img/media-card.png
+    sectionImage: /img/media-card.png
 ---
