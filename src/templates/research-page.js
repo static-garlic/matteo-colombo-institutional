@@ -1,38 +1,38 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import {Container, Col, Row} from "reactstrap";
 
 export const ResearchPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <Fragment>
+        <SectionJumbotron title={title} />
+        <Container>
+          <Row>
+            <Col>
+              <p>
+                <PageContent className="content" content={content}/>
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </Fragment>
   )
-}
+};
 
 ResearchPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-}
+};
 
 const ResearchPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -43,11 +43,11 @@ const ResearchPage = ({ data }) => {
       />
     </Layout>
   )
-}
+};
 
 ResearchPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
 export default ResearchPage
 
@@ -60,4 +60,4 @@ export const researchPage = graphql`
       }
     }
   }
-`
+`;

@@ -4,9 +4,8 @@ import {graphql, Link} from 'gatsby'
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import {SectionJumbotron} from "../components/SectionJumbotron";
-import Container from "reactstrap/es/Container";
-import Col from "reactstrap/es/Col";
-import {Row} from "reactstrap";
+import {Container, Col, Row} from "reactstrap";
+
 
 export const BiographyPageTemplate = ({title, content, contentComponent, relativeLinks}) => {
   const PageContent = contentComponent || Content;

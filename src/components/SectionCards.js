@@ -10,7 +10,7 @@ export const SectionCards = ({sectionCards}) => (
           sectionCards.map(sectionCard =>
               <Col sm={Math.floor(12/sectionCards.length)} key={sectionCard.sectionTitle}>
                 <Card>
-                  <PreviewCompatibleImage imageInfo={sectionCard} />
+                  <PreviewCompatibleImage imageInfo={sectionCard.sectionImage} />
                   <CardBody className="text-center">
                     <CardTitle className="text-primary">{sectionCard.sectionTitle}</CardTitle>
                     <CardText>{sectionCard.sectionDesc}</CardText>
@@ -27,7 +27,7 @@ export const SectionCards = ({sectionCards}) => (
 SectionCards.propTypes = {
   sectionCards: PropTypes.arrayOf(
       PropTypes.shape({
-        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+        sectionImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
         sectionTitle: PropTypes.string,
         sectionDesc: PropTypes.string,
       })
