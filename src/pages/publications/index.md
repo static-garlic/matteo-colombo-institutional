@@ -54,4 +54,44 @@ chapterEBooks:
             year: ""
             publishedOn: ""
             link: ""
+newspaperArticles:
+  title: Newspaper Articles
+  articlesPerLanguage:
+      - language: Italian
+        articles:
+          - title: "Il mondo arabo e la guerra a Isis: in rete Trump più popolare di Obama grazie all’Iran"
+            author: Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus
+            year: 2017
+            publishedOn: Corriere della Sera
+            link: https://www.corriere.it/esteri/17_settembre_28/mondo-arabo-guerra-isis-rete-trump-piu-popolare-obama-grazie-all-iran-52c01bfc-a424-11e7-b9ac-71d7c26035bb.shtml
+      - language: English
+        articles:
+          - title: "A marriage of convenience: surprising popularity of Trump on Arab social media"
+            author: Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus
+            year: 2017
+            publishedOn: The Globe Post
+            link: https://theglobepost.com/2017/10/13/trump-popularity-arab-media/
+infographicsMaps:
+  title: Infographics and Maps
+  articlesPerLanguage:
+      - language: English
+        articles:
+          - title: "Jason Pack, Kingdom of militias: Libya’s second war of post-Qadhafi succession"
+            year: 2019
+            publishedOn: ISPI Analysis
+            link: https://www.ispionline.it/it/pubblicazione/kingdom-militias-libyas-second-war-post-qadhafi-succession-23121
+          - title: "The turkish economy in numbers: in ISPI publication, Turkey's snap elections: Continuity or Change"
+            year: 2019
+            publishedOn: ISPI Dossier
+            link: https://www.ispionline.it/it/pubblicazione/infographic-turkish-economy-numbers-22678
+          - title: "Iraqi Elections: the main candidates, Iraq's election: turning the page?"
+            year: 2018
+            publishedOn: ISPI Dossier
+            link: https://www.ispionline.it/en/pubblicazione/iraqi-elections-main-candidates-20471
+          - title: Egypt's challenges
+            year: 2017
+            publishedOn: ISPI Dossier
+            link: https://www.ispionline.it/en/pubblicazione/egypts-challenges-19881
+  additionalInfo: "I am also contributing each three months to the maps and infographics for the publication Mediterraneo Allargato, an analysis on the enlarged Mediterranean region of the Italian Institute for International Political Studies (ISPI) for the Italian Parliament. Click here to see the publications:"
+  additionalInfoLink: https://www.ispionline.it/it/pubblicazioni
 ---

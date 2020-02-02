@@ -257,3 +257,130 @@ collections:
               }
               ]
           }
+          - {
+            label: "Newspaper Articles",
+            name: "newspaperArticles",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Section Title",
+                name: title,
+                widget: string
+              },
+              {
+                label: "Articles Per Language",
+                name: articlesPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Articles",
+                    name: articles,
+                    widget: list,
+                    required: false,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string,
+                        required: false
+                      },
+                      {
+                        label: "Author",
+                        name: author,
+                        widget: string
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: number
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      }
+                      ]
+                  }
+                  ]
+              }
+              ]
+          }
+          - {
+            label: "Infographics and Maps",
+            name: "infographicsMaps",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Section Title",
+                name: title,
+                widget: string
+              },
+              {
+                label: "Articles Per Language",
+                name: articlesPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Articles",
+                    name: articles,
+                    widget: list,
+                    required: false,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string,
+                        required: false
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: number
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      }
+                      ]
+                  }
+                  ]
+              },
+              {
+                label: "Additional Info",
+                name: additionalInfo,
+                widget: string
+              },
+              {
+                label: "Additional Info Link",
+                name: additionalInfoLink,
+                widget: string
+              }
+              ]
+          }

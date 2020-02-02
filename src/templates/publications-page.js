@@ -2,13 +2,12 @@ import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import {HTMLContent} from '../components/Content'
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Col, Container, Row} from "reactstrap";
 import {PeerArticles} from "../components/PeerArticles";
 import {StandardPublications} from "../components/StandardPublications";
 
-export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles, chapterEBooks}) => {
+export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles, chapterEBooks, newspaperArticles, infographicsMaps}) => {
 
   return (
     <Fragment>
@@ -25,6 +24,12 @@ export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles
             {
               <StandardPublications publications={chapterEBooks} />
             }
+            {
+              <StandardPublications publications={newspaperArticles} />
+            }
+            {
+              <StandardPublications publications={infographicsMaps} />
+            }
           </Col>
         </Row>
       </Container>
@@ -36,7 +41,9 @@ PublicationsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   peerArticles: PropTypes.object,
   thinkTankArticles: PropTypes.object,
-  chapterEBooks: PropTypes.object
+  chapterEBooks: PropTypes.object,
+  newspaperArticles: PropTypes.object,
+  infographicsMaps: PropTypes.object
 };
 
 const PublicationsPage = ({data}) => {
@@ -45,11 +52,12 @@ const PublicationsPage = ({data}) => {
   return (
     <Layout>
       <PublicationsPageTemplate
-        contentComponent={HTMLContent}
         title={publications.frontmatter.title}
         peerArticles={publications.frontmatter.peerArticles}
         thinkTankArticles={publications.frontmatter.thinkTankArticles}
         chapterEBooks={publications.frontmatter.chapterEBooks}
+        newspaperArticles={publications.frontmatter.newspaperArticles}
+        infographicsMaps={publications.frontmatter.infographicsMaps}
       />
     </Layout>
   )
@@ -103,6 +111,33 @@ export const publicationsPage = graphql`
               link
             }
           }
+        }
+        newspaperArticles {
+          title
+          articlesPerLanguage {
+            language
+            articles {
+              title
+              author
+              year
+              publishedOn
+              link
+            }
+          }
+        }
+        infographicsMaps {
+          title
+          articlesPerLanguage {
+            language
+            articles {
+              title
+              year
+              publishedOn
+              link
+            }
+          }
+          additionalInfo
+          additionalInfoLink
         }
       }
     }
