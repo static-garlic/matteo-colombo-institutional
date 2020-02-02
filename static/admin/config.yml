@@ -78,3 +78,181 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/publications/index.md"
+        label: "Publications"
+        name: "publications"
+        fields:
+          - {
+            label: "Peer-Reviewed Journal Articles",
+            name: "peerArticles",
+            widget: object,
+            fields: [
+            {
+              label: "Section Title",
+              name: title,
+              widget: string
+            },
+            {
+              label: "Articles",
+              name: articles,
+              widget: list,
+              fields:
+                [
+                {
+                  label: "Title",
+                  name: title,
+                  widget: string
+                },
+                {
+                  label: "Author",
+                  name: author,
+                  widget: string
+                },
+                {
+                  label: "Year",
+                  name: year,
+                  widget: number
+                },
+                {
+                  label: "Published on",
+                  name: publishedOn,
+                  widget: string
+                },
+                {
+                  label: "Section",
+                  name: section,
+                  widget: string
+                },
+                {
+                  label: "Pages",
+                  name: pages,
+                  widget: string
+                }
+                ]
+            }
+            ]
+          }
+          - {
+            label: "Think Tank Articles",
+            name: "thinkTankArticles",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Section Title",
+                name: title,
+                widget: string
+              },
+              {
+                label: "Section Subtitle",
+                name: subtitle,
+                widget: string
+              },
+              {
+                label: "Articles Per Language",
+                name: articlesPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Articles",
+                    name: articles,
+                    widget: list,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string
+                      },
+                      {
+                        label: "Author",
+                        name: author,
+                        widget: string
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: number
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      }
+                      ]
+                  }
+                  ]
+              }
+              ]
+          }
+          - {
+            label: "Chapter in E-books",
+            name: "chapterEBooks",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Section Title",
+                name: title,
+                widget: string
+              },
+              {
+                label: "Articles Per Language",
+                name: articlesPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Articles",
+                    name: articles,
+                    widget: list,
+                    required: false,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string
+                      },
+                      {
+                        label: "Author",
+                        name: author,
+                        widget: string
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: number
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      }
+                      ]
+                  }
+                  ]
+              }
+              ]
+          }
