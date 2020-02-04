@@ -384,3 +384,21 @@ collections:
               }
               ]
           }
+      - file: "src/pages/technical-skills/index.md"
+        label: "Technical Skills"
+        name: "technicalSkills"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {
+            label: "Technical Skills List",
+            name: technicalSkillsList,
+            widget: list,
+            fields: [
+            {
+              label: "Skill Name", name: "skillName", widget: "string"
+            },
+            {
+              label: "Level", level: "level", widget: string
+            }
+            ]
+          }

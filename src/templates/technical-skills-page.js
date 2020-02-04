@@ -1,45 +1,46 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React, {Fragment} from 'react'
+import PropTypes, {number} from 'prop-types'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import {TechnicalSkill} from "../components/TechnicalSkill";
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import {Col, Container, Row} from "reactstrap";
 
-export const TechnicalSkillsPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const TechnicalSkillsPageTemplate = ({title, technicalSkillsList}) => {
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Fragment>
+      <SectionJumbotron title={title}/>
+      <Container>
+        <Row>
+          <Col>
+            {technicalSkillsList.map((technicalSkill) => <TechnicalSkill technicalSkill={technicalSkill}/>)}
+          </Col>
+        </Row>
+      </Container>
+    </Fragment>
   )
 }
 
 TechnicalSkillsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  technicalSkillsList: PropTypes.arrayOf(
+    PropTypes.shape({
+        skillName: PropTypes.string,
+        level: number
+      }
+    )
+  )
 }
 
-const TechnicalSkillsPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const TechnicalSkillsPage = ({data}) => {
+  const {markdownRemark: technicalSkills} = data
 
   return (
     <Layout>
       <TechnicalSkillsPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        title={technicalSkills.frontmatter.title}
+        technicalSkillsList={technicalSkills.frontmatter.technicalSkillsList}
       />
     </Layout>
   )
@@ -54,9 +55,12 @@ export default TechnicalSkillsPage
 export const technicalSkillsPage = graphql`
   query technicalSkillsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        technicalSkillsList {
+          skillName
+          level
+        }
       }
     }
   }

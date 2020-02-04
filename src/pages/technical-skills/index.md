@@ -1,9 +1,12 @@
 ---
 templateKey: 'technical-skills-page'
 path: /technical-skills
-title: Le mie skill tecniche
+title: Technical Skills
+technicalSkillsList:
+    - skillName: R (Data Analysis)
+      level: 2
+    - skillName: Premiere (video editing)
+      level: 2
+    - skillName: Illustrator (graphic)
+      level: 3
 ---
-### Le mie skill tecniche
-notepad  
-wordpad  
-certified mouse user
