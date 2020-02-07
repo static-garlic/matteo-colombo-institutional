@@ -79,13 +79,4 @@ guestLectures:
                 links:
                     - text: ""
                       link: ""
-            - title: "La strategia di comunicazione di IS"
-              course: "Organizzazioni internazionali"
-              university: "University of Pavia - Italian Institute for International Political Studies (ISPI)"
-              year: "2015-2016"
-              linkSection:
-                linksText: ""
-                links:
-                    - text: ""
-                      link: ""
 ---
