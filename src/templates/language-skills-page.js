@@ -1,45 +1,66 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React, {Fragment} from 'react'
+import PropTypes, {number} from 'prop-types'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import {Skill} from "../components/Skill";
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import {Col, Container, Row} from "reactstrap";
 
-export const LanguageSkillsPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const LanguageSkillsPageTemplate = ({title, nativeSpeaker, languageSkillsList}) => {
+  const languageSkillLevels = [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ];
+
+  const skillNameColSize = "2";
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Fragment>
+      <SectionJumbotron title={title}/>
+      <Container>
+        <Row className="pb-4">
+          <Col sm={skillNameColSize || "4"} className="align-self-end">
+            <h4 className="mb-0">{nativeSpeaker}</h4>
+          </Col>
+          <Col sm={skillNameColSize ? 12 - skillNameColSize : 8}>
+            <h4 className="mb-0">Native Speaker</h4>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {languageSkillsList.map((languageSkill) => <Skill skill={languageSkill} skillLevels={languageSkillLevels} skillNameColSize={skillNameColSize}/>)}
+          </Col>
+        </Row>
+      </Container>
+    </Fragment>
   )
 }
 
 LanguageSkillsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  nativeSpeaker: PropTypes.string,
+  languageSkillsList: PropTypes.arrayOf(
+    PropTypes.shape({
+        skillName: PropTypes.string,
+        level: number
+      }
+    )
+  )
 }
 
-const LanguageSkillsPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const LanguageSkillsPage = ({data}) => {
+  const {markdownRemark: languageSkills} = data
 
   return (
     <Layout>
       <LanguageSkillsPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        title={languageSkills.frontmatter.title}
+        nativeSpeaker={languageSkills.frontmatter.nativeSpeaker}
+        languageSkillsList={languageSkills.frontmatter.languageSkillsList}
       />
     </Layout>
   )
@@ -54,9 +75,13 @@ export default LanguageSkillsPage
 export const languageSkillsPage = graphql`
   query languageSkillsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        nativeSpeaker
+        languageSkillsList {
+          skillName
+          level
+        }
       }
     }
   }

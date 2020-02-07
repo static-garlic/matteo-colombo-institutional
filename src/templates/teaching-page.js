@@ -1,63 +1,148 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import {HTMLContent} from '../components/Content'
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import {Col, Container, Row} from "reactstrap";
+import {Teachings} from "../components/Teachings";
 
-export const TeachingPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const TeachingPageTemplate = ({title, modules, guestLectures}) => {
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Fragment>
+      <SectionJumbotron title={title}/>
+      <Container>
+        <Row>
+          <Col>
+            <Teachings teachings={modules} />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Teachings teachings={guestLectures} />
+          </Col>
+        </Row>
+      </Container>
+    </Fragment>
   )
-}
+};
 
 TeachingPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
+  modules: PropTypes.shape({
+      teachingType: PropTypes.string,
+      teachings: PropTypes.arrayOf(
+        PropTypes.shape(
+          {
+            topic: PropTypes.string,
+            lectures: PropTypes.arrayOf(
+              PropTypes.shape({
+                  title: PropTypes.string,
+                  course: PropTypes.string,
+                  university: PropTypes.string,
+                  year: PropTypes.string
+                }
+              )
+            )
+          }
+        )
+      )
+    }
+  ),
+  guestLectures: PropTypes.shape({
+      teachingType: PropTypes.string,
+      teachings: PropTypes.arrayOf(
+        PropTypes.shape(
+          {
+            topic: PropTypes.string,
+            lectures: PropTypes.arrayOf(
+              PropTypes.shape({
+                  title: PropTypes.string,
+                  course: PropTypes.string,
+                  university: PropTypes.string,
+                  year: PropTypes.string,
+                  linkSection: PropTypes.shape(
+                    {
+                      linksText: PropTypes.string,
+                      links: PropTypes.arrayOf(
+                        PropTypes.shape(
+                          {
+                            text: PropTypes.string,
+                            link: PropTypes.string
+                          }
+                        )
+                      )
+                    }
+                  )
+                }
+              )
+            )
+          }
+        )
+      )
+    }
+  ),
+};
 
-const TeachingPage = ({ data }) => {
-  const { markdownRemark: post } = data
+const TeachingPage = ({data}) => {
+  const {markdownRemark: teachings} = data;
 
   return (
     <Layout>
       <TeachingPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        title={teachings.frontmatter.title}
+        modules={teachings.frontmatter.modules}
+        guestLectures={teachings.frontmatter.guestLectures}
       />
     </Layout>
   )
-}
+};
 
 TeachingPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+};
 
 export default TeachingPage
 
 export const teachingPage = graphql`
   query teachingPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        modules {
+          teachingType
+          teachings {
+            topic
+            lectures {
+              title
+              course
+              university
+              year
+            }
+          }
+        }
+        guestLectures {
+          teachingType
+          teachings {
+            topic
+            lectures {
+              title
+              course
+              university
+              year
+              linkSection {
+                linksText
+                links {
+                  text
+                  link
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
-`
+`;

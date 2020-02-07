@@ -2,11 +2,16 @@ import React, {Fragment} from 'react'
 import PropTypes, {number} from 'prop-types'
 import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
-import {TechnicalSkill} from "../components/TechnicalSkill";
+import {Skill} from "../components/Skill";
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Col, Container, Row} from "reactstrap";
 
 export const TechnicalSkillsPageTemplate = ({title, technicalSkillsList}) => {
+  const technicalSkillLevels = [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ];
 
   return (
     <Fragment>
@@ -14,7 +19,7 @@ export const TechnicalSkillsPageTemplate = ({title, technicalSkillsList}) => {
       <Container>
         <Row>
           <Col>
-            {technicalSkillsList.map((technicalSkill) => <TechnicalSkill technicalSkill={technicalSkill}/>)}
+            {technicalSkillsList.map((technicalSkill) => <Skill skill={technicalSkill} skillLevels={technicalSkillLevels}/>)}
           </Col>
         </Row>
       </Container>

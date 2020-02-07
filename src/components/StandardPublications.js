@@ -25,9 +25,10 @@ export const StandardPublications = ({publications}) =>
     }
     <p className="pt-3">
       <Fragment>
-      {publications.additionalInfo ? <span>{publications.additionalInfo} </span> : null}
-      {publications.additionalInfoLink ?
-        <a href={publications.additionalInfoLink} target="_blank" rel="noopener noreferrer">{publications.additionalInfoLink}</a> : null}
+        {publications.additionalInfo ? <span>{publications.additionalInfo} </span> : null}
+        {publications.additionalInfoLink ?
+          <a href={publications.additionalInfoLink} target="_blank"
+             rel="noopener noreferrer">{publications.additionalInfoLink}</a> : null}
       </Fragment>
     </p>
   </div>
@@ -35,23 +36,23 @@ export const StandardPublications = ({publications}) =>
 
 StandardPublications.propTypes = {
   publications: PropTypes.shape({
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
-  articlesPerLanguage: PropTypes.arrayOf(
-  PropTypes.shape({
-  language: PropTypes.string,
-  articles: PropTypes.arrayOf(
-  PropTypes.shape({
-  title: PropTypes.string,
-  author: PropTypes.string,
-  year: PropTypes.number,
-  publishedOn: PropTypes.string,
-  link: PropTypes.string,
-})
-  )
-})
-  ),
-  additionalInfo: PropTypes.string,
-  additionalInfoLink: PropTypes.string
-})
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    articlesPerLanguage: PropTypes.arrayOf(
+      PropTypes.shape({
+        language: PropTypes.string,
+        articles: PropTypes.arrayOf(
+          PropTypes.shape({
+            title: PropTypes.string,
+            author: PropTypes.string,
+            year: PropTypes.number,
+            publishedOn: PropTypes.string,
+            link: PropTypes.string,
+          })
+        )
+      })
+    ),
+    additionalInfo: PropTypes.string,
+    additionalInfoLink: PropTypes.string
+  })
 };

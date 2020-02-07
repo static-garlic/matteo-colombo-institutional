@@ -1,14 +1,15 @@
 ---
 templateKey: 'language-skills-page'
 path: /language-skills
-title: I linguaggi che conosco
+title: Language Skills
+nativeSpeaker: Italian
+languageSkillsList:
+    - skillName: English
+      level: 6
+    - skillName: Arabic
+      level: 4
+    - skillName: Turkish
+      level: 2
+    - skillName: Dutch
+      level: 2
 ---
-### I linguaggi che conosco
-rust  
-c  
-haskell  
-malebolge  
-java  
-C  
-purescript  
-elm  

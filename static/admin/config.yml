@@ -402,3 +402,160 @@ collections:
             }
             ]
           }
+      - file: "src/pages/language-skills/index.md"
+        label: "Language Skills"
+        name: "languageSkills"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Native Speaker", name: nativeSpeaker,widget: string}
+          - {
+            label: "Language Skills List",
+            name: languageSkillsList,
+            widget: list,
+            fields: [
+            {
+              label: "Skill Name", name: "skillName", widget: "string"
+            },
+            {
+              label: "Level", level: "level", widget: string
+            }
+            ]
+          }
+      - file: "src/pages/teaching/index.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {
+            label: "Modules",
+            name: "modules",
+            widget: object,
+            fields: [
+            {
+              label: "Teaching Type",
+              name: teachingType,
+              widget: string
+            },
+            {
+              label: "Teachings",
+              name: "teachings",
+              widget: list,
+              fields: [
+              {
+                label: "Topic",
+                name: topic,
+                widget: string
+              },
+              {
+                label: "Lectures",
+                name: lectures,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Title",
+                    name: title,
+                    widget: string
+                  },
+                  {
+                    label: "Course",
+                    name: course,
+                    widget: string
+                  },
+                  {
+                    label: "University",
+                    name: university,
+                    widget: string
+                  },
+                  {
+                    label: "Year",
+                    name: year,
+                    widget: string
+                  }
+                  ]
+              }
+              ]
+            }
+            ]
+          }
+          - {
+            label: "Guest Lectures",
+            name: "guestLectures",
+            widget: object,
+            fields: [
+            {
+              label: "Teaching Type",
+              name: teachingType,
+              widget: string
+            },
+            {
+              label: "Teachings",
+              name: "teachings",
+              widget: list,
+              fields: [
+              {
+                label: "Topic",
+                name: topic,
+                widget: string
+              },
+              {
+                label: "Lectures",
+                name: lectures,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Title",
+                    name: title,
+                    widget: string
+                  },
+                  {
+                    label: "Course",
+                    name: course,
+                    widget: string
+                  },
+                  {
+                    label: "University",
+                    name: university,
+                    widget: string
+                  },
+                  {
+                    label: "Year",
+                    name: year,
+                    widget: string
+                  },
+                  {
+                    label: "Links Section",
+                    name: linkSection,
+                    widget: object,
+                    fields:
+                      [
+                      {
+                        label: "Links Text",
+                        name: linksText,
+                        widget: string
+                      },
+                      {
+                        label: "Links",
+                        name: links,
+                        widget: list,
+                        fields: [
+                        {
+                          label: "Text",
+                          name: text,
+                          widget: string
+                        },
+                        {
+                          label: "Link",
+                          name: text,
+                          widget: string
+                        }
+                        ]
+                      }
+                      ]
+                  }
+                  ]
+              }
+              ]
+            }
+            ]
+          }
