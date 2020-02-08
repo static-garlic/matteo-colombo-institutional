@@ -559,3 +559,125 @@ collections:
             }
             ]
           }
+      - file: "src/pages/media/index.md"
+        label: "Media"
+        name: "media"
+        fields:
+          - {
+            label: "Section Intro",
+            name: sectionIntro,
+            widget: string
+            }
+          - {
+            label: "Press",
+            name: "press",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Media Type",
+                name: mediaType,
+                widget: string
+              },
+              {
+                label: "Media Per Language",
+                name: mediaPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Media List",
+                    name: mediaList,
+                    widget: list,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string
+                      },
+                      {
+                        label: "Author",
+                        name: author,
+                        widget: string
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      },
+                      ]
+                  }
+                  ]
+              }
+              ]
+            }
+          - {
+            label: "Television",
+            name: "television",
+            widget: object,
+            fields:
+              [
+              {
+                label: "Media Type",
+                name: mediaType,
+                widget: string
+              },
+              {
+                label: "Media Per Language",
+                name: mediaPerLanguage,
+                widget: list,
+                fields:
+                  [
+                  {
+                    label: "Language",
+                    name: language,
+                    widget: string,
+                  },
+                  {
+                    label: "Media List",
+                    name: mediaList,
+                    widget: list,
+                    fields:
+                      [
+                      {
+                        label: "Title",
+                        name: title,
+                        widget: string
+                      },
+                      {
+                        label: "Published on",
+                        name: publishedOn,
+                        widget: string
+                      },
+                      {
+                        label: "Year",
+                        name: year,
+                        widget: string
+                      },
+                      {
+                        label: "Link",
+                        name: link,
+                        widget: string
+                      },
+                      ]
+                  }
+                  ]
+              }
+              ]
+          }
