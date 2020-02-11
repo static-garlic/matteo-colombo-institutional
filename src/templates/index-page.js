@@ -5,7 +5,6 @@ import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {Col, Container, Jumbotron, Row} from "reactstrap";
 import {SectionCards} from "../components/SectionCards";
-import {Button} from "bootstrap/js/src";
 
 export const IndexPageTemplate = ({
                                     image,
