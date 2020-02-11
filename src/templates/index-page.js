@@ -40,7 +40,6 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   sectionCards: PropTypes.array,
-  cvFile: PropTypes.string
 };
 
 const IndexPage = ({data}) => {
