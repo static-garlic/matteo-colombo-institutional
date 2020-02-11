@@ -12,5 +12,4 @@ sectionCards:
   - sectionTitle: Media
     sectionDesc: A list of interviews is available here
     sectionImage: /img/media-card.png
-cvFile: ""
 ---
