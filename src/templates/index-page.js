@@ -10,8 +10,7 @@ import {Button} from "bootstrap/js/src";
 export const IndexPageTemplate = ({
                                     image,
                                     title,
-                                    sectionCards,
-                                    cvFile
+                                    sectionCards
                                   }) => (
     <div className="IndexPage">
       <Jumbotron
@@ -33,7 +32,6 @@ export const IndexPageTemplate = ({
       </Jumbotron>
       <Container fluid className="px-lg-5">
         <SectionCards sectionCards={sectionCards}/>
-        <p>*{cvFile}*</p>
       </Container>
     </div>
 );
@@ -54,7 +52,6 @@ const IndexPage = ({data}) => {
             image={frontmatter.image}
             title={frontmatter.title}
             sectionCards={frontmatter.sectionCards}
-            cvFile={frontmatter.cvFile}
         />
       </Layout>
   )
@@ -93,7 +90,6 @@ export const pageQuery = graphql`
           sectionTitle
           sectionDesc
         }
-        cvFile
       }
     }
   }
