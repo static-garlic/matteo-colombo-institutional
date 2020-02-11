@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
       >
         <Row>
           <Col sm={{size: 6, offset: 1}}>
-            <h1 className="py-2 text-primary ">
+            <h1 className="py-2 text-white">
               {title}
             </h1>
           </Col>
