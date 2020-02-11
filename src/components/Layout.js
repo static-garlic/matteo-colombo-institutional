@@ -1,19 +1,19 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import {Helmet} from 'react-helmet'
 import Footer from '../components/Footer'
 import NavigationBar from '../components/Navigationbar'
 import '../styles/all.scss'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import {withPrefix} from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+const TemplateWrapper = ({children}) => {
+  const {title, description} = useSiteMetadata();
   return (
-    <div>
+    <div className="app-wrapper">
       <Helmet>
-        <html lang="en" />
+        <html lang="en"/>
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={description}/>
 
         <link
           rel="apple-touch-icon"
@@ -38,19 +38,21 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#fff"/>
 
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+        <meta property="og:type" content="business.business"/>
+        <meta property="og:title" content={title}/>
+        <meta property="og:url" content="/"/>
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <NavigationBar />
-      <div>{children}</div>
-      <Footer />
+      <div className="content-wrapper">
+        <NavigationBar/>
+        <div>{children}</div>
+      </div>
+      <Footer/>
     </div>
   )
 }
