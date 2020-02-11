@@ -681,3 +681,11 @@ collections:
               }
               ]
           }
+      - file: "src/pages/infographics-and-maps/index.md"
+        label: "Infographics and Map Page"
+        name: "infographics-and-maps"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: string}, {label: "Image", name: image, widget: image}]}
+          - {label: Disclaimer, name: disclaimer, widget: string}

@@ -1,45 +1,54 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import {SectionJumbotron} from "../components/SectionJumbotron";
+import {Col, Container, Row} from "reactstrap";
+import {InfographicsGallery} from "../components/InfographicsGallery";
 
-export const InfographicsAndMapsPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const InfographicsAndMapsPageTemplate = ({ title, subtitle, infographicsList, disclaimer }) => {
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Fragment>
+      <SectionJumbotron title={title}/>
+      <Container>
+        <Row>
+          <Col>
+            <h4 className="pb-3">{subtitle}</h4>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <InfographicsGallery infographicsList={infographicsList} />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="pt-4">{disclaimer}</p>
+          </Col>
+        </Row>
+      </Container>
+    </Fragment>
   )
 }
 
 InfographicsAndMapsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  subtitle: PropTypes.string,
+  infographicsList: PropTypes.array,
+  disclaimer: PropTypes.string
 }
 
 const InfographicsAndMapsPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: infographics } = data
 
   return (
     <Layout>
       <InfographicsAndMapsPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        title={infographics.frontmatter.title}
+        subtitle={infographics.frontmatter.subtitle}
+        infographicsList={infographics.frontmatter.infographicsList}
+        disclaimer={infographics.frontmatter.disclaimer}
       />
     </Layout>
   )
@@ -54,9 +63,22 @@ export default InfographicsAndMapsPage
 export const infographicsAndMapsPage = graphql`
   query infographicsAndMapsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        subtitle
+        infographicsList {
+          image {
+            relativePath
+            childImageSharp {
+              fixed {
+                height
+                width
+              }
+            }
+          }
+          caption
+        }
+        disclaimer
       }
     }
   }
