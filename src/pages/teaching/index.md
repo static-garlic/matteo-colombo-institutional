@@ -71,7 +71,7 @@ guestLectures:
                     - text: "Summer"
                       link: "www.google.it"
             - title: "La questione libica e gli equilibri regionali nell’area afromediterranea"
-              course: "???"
+              course: "Geopolitica del Mediterraneo"
               university: "University of Palermo – Istituto Mediterraneo Studi Internazionali (IMESI)"
               year: "2018"
               linkSection:

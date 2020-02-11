@@ -1,7 +1,6 @@
 ---
 templateKey: index-page
-title: ISPI Associate Research Fellow (MENA Programme), Ph.D. Candidate
- in Political Studies (University of Milan-NASP), Journalist, Infographics Designer
+title: ISPI Associate Research Fellow (MENA Programme), Ph.D. Researcher, Journalist, Infographics Designer
 image: /img/home-jumbotron.png
 sectionCards:
   - sectionTitle: Publications
@@ -13,4 +12,5 @@ sectionCards:
   - sectionTitle: Media
     sectionDesc: A list of interviews is available here
     sectionImage: /img/media-card.png
+cvFile: ""
 ---
