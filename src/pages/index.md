@@ -14,6 +14,6 @@ sectionCards:
   - sectionDesc: A list of interviews is available here
     sectionImage: /img/media-card.png
     sectionTitle: Media
-cvFile: /img/matteocolombocvsito.pdf
+cvFile: ""
 ---
 
