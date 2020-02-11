@@ -51,7 +51,7 @@ chapterEBooks:
         articles: 
           - title: "The Islamic State (IS) and the others. A topic analysis of pro-IS and anti-IS discourse on Arabic-speaking Twitter"
             author: ""
-            year: "2019"
+            year: 2019
             publishedOn: "Digital Jihad: Online Communication and Violent Extremism (Ed. Francesco Marone)"
             link: ""
 newspaperArticles:
