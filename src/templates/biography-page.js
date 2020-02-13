@@ -5,9 +5,10 @@ import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Container, Col, Row} from "reactstrap";
+import {IndexPageTemplate} from "./index-page";
 
 
-export const BiographyPageTemplate = ({title, content, contentComponent, relativeLinks}) => {
+export const BiographyPageTemplate = ({title, content, contentComponent, relativeLinks, cvFile}) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -31,6 +32,7 @@ export const BiographyPageTemplate = ({title, content, contentComponent, relativ
               }
             </Col>
           </Row>
+          <p>*{cvFile}*</p>
         </Container>
       </Fragment>
   )
@@ -40,7 +42,8 @@ BiographyPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  relativeLinks: PropTypes.array
+  relativeLinks: PropTypes.array,
+  cvFile: PropTypes.string
 };
 
 const BiographyPage = ({data}) => {
@@ -53,6 +56,8 @@ const BiographyPage = ({data}) => {
             title={biography.frontmatter.title}
             content={biography.html}
             relativeLinks={biography.frontmatter.relativeLinks}
+            cvFile={biography.frontmatter.cvFile}
+
         />
       </Layout>
   )
@@ -75,6 +80,7 @@ export const biographyPage = graphql`
           linkText
           link
         }
+        cvFile
       }
     }
   }

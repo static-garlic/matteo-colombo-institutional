@@ -9,8 +9,7 @@ import {SectionCards} from "../components/SectionCards";
 export const IndexPageTemplate = ({
                                     image,
                                     title,
-                                    sectionCards,
-                                    cvFile
+                                    sectionCards
                                   }) => (
     <div className="IndexPage">
       <Jumbotron
@@ -33,7 +32,6 @@ export const IndexPageTemplate = ({
       </Jumbotron>
       <Container fluid className="px-lg-5">
         <SectionCards sectionCards={sectionCards}/>
-        <p>*{cvFile}*</p>
       </Container>
     </div>
 );
@@ -41,8 +39,7 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  sectionCards: PropTypes.array,
-  cvFile: PropTypes.string
+  sectionCards: PropTypes.array
 };
 
 const IndexPage = ({data}) => {
@@ -54,7 +51,6 @@ const IndexPage = ({data}) => {
             image={frontmatter.image}
             title={frontmatter.title}
             sectionCards={frontmatter.sectionCards}
-            cvFile={frontmatter.cvFile}
         />
       </Layout>
   )
@@ -93,7 +89,6 @@ export const pageQuery = graphql`
           sectionTitle
           sectionDesc
         }
-        cvFile
       }
     }
   }
