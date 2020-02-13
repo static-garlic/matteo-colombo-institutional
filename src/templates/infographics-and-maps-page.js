@@ -76,7 +76,10 @@ export const infographicsAndMapsPage = graphql`
               }
             }
           }
-          caption
+          caption {
+            text
+            link
+          }
         }
         disclaimer
       }

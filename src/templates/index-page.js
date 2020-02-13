@@ -19,10 +19,11 @@ export const IndexPageTemplate = ({
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             }) no-repeat center center`,
         height: "30rem",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
+        display: "flex"
       }}
       >
-        <Row>
+        <Row className="my-auto">
           <Col sm={{size: 6, offset: 1}}>
             <h2 className="py-2 text-white">
               {title}

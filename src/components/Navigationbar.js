@@ -10,12 +10,14 @@ const NavigationBar = () => {
     return (
         <Navbar color="white" light className="navbar-expand-lg py-3">
             <Container fluid>
-            <Link to="/" className="navbar-brand" title="Logo">
-                <Button color="primary">LOGO</Button>
-            </Link>
             <NavbarToggler onClick={toggle}/>
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="mr-auto" navbar>
+                    <NavItem>
+                        <Link className="nav-link" to="/" activeClassName="text-primary">
+                            Home
+                        </Link>
+                    </NavItem>
                     <NavItem>
                         <Link className="nav-link" to="/biography" activeClassName="text-primary">
                             Biography

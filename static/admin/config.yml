@@ -688,5 +688,5 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: string}, {label: "Image", name: image, widget: image}]}
+          - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Link, name: link, widget: string}]}, {label: "Image", name: image, widget: image}]}
           - {label: Disclaimer, name: disclaimer, widget: string}
