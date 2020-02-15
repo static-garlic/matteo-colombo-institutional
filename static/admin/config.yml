@@ -72,6 +72,7 @@ collections:
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Relative Links", name: relativeLinks, widget: list, fields: [{label: Text, name: text, widget: string}, {label: "Linked Text", name: linkText, widget: string}, {label: Link, name: link, widget: string}]}
+          - {label: "CV Link", name: cvLink, widget: object, fields: [{label: Text, name: text, widget: string}, {label: "Linked Text", name: linkText, widget: string}]}
           - {label: "CV file", name: cvFile, widget: file}
       - file: "src/pages/research/index.md"
         label: "Research"
