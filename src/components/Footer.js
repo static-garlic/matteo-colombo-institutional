@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
     return (
       <div className="footer">
         <Container fluid>
-          <Row>
+          <Row className="pt-2">
             <Col sm="6" className="text-center">
               <Row>
                 <Col>
