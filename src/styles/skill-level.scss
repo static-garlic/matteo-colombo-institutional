@@ -1,9 +1,9 @@
 .SkillLevel .rect-border {
   stroke-width:2;
-  stroke:$primary;
+  stroke: theme-color("primary");
   fill: white;
 }
 
 .SkillLevel .rect-fill {
-  fill: $primary;
+  fill: theme-color("primary");
 }
