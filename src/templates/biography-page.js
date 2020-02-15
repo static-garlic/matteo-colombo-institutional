@@ -21,7 +21,7 @@ export const BiographyPageTemplate = ({title, content, contentComponent, relativ
               <PageContent className="content" content={content}/>
             </p>
             <p>{`${cvLink.text} `}
-              <a  target="_blank" rel="noopener noreferrer" href={cvFile}>{cvLink.linkText}</a>
+              <a  target="_blank" rel="noopener noreferrer" href={`/img/${cvFile.relativePath}`}>{cvLink.linkText}</a>
             </p>
             {
               relativeLinks.map(relativeLink =>
@@ -87,7 +87,9 @@ export const biographyPage = graphql`
           text
           linkText
         }
-        cvFile
+        cvFile {
+          relativePath
+        }
       }
     }
   }
