@@ -11,14 +11,14 @@ export const SectionJumbotron = ({title}) => (
         backgroundSize: "cover"
       }}
       >
-        <Row>
-          <Col sm={{size: "auto", offset: 1}}>
-            <h1 className="p-2 text-primary">
-              {title}
-            </h1>
-          </Col>
-        </Row>
       </Jumbotron>
+      <Row>
+        <Col sm={{size: "auto", offset: 1}}>
+          <h1 className="p-2 pb-4 text-primary">
+            {title}
+          </h1>
+        </Col>
+      </Row>
     </div>
 );
 
