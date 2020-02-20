@@ -17,7 +17,7 @@ const Footer = class extends React.Component {
                   <h5 className="text-white pt-3 pb-2">Links</h5>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/">
                     Home
@@ -34,7 +34,7 @@ const Footer = class extends React.Component {
                   </Link>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/publications">
                     Publications
@@ -51,7 +51,7 @@ const Footer = class extends React.Component {
                   </Link>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/language-skills">
                     Language Skills
@@ -75,19 +75,19 @@ const Footer = class extends React.Component {
                   <h5 className="pt-3 pb-2">Contacts and Social Media</h5>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col>
                   <FontAwesomeIcon icon={faEnvelope}/>{` Mail: `}
                   <a className="text-white" href="mailto:matteo.colombo@infodemia.it">matteo.colombo@infodemia.it</a>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col>
                   <FontAwesomeIcon icon={faTwitter}/>{` Twitter: `}
                   <a className="text-white" href="https://twitter.com/philoteo" target="_blank" rel="noopener noreferrer">@philoteo</a>
                 </Col>
               </Row>
-              <Row className="pb-2">
+              <Row className="pb-2 small">
                 <Col>
                   <FontAwesomeIcon icon={faLinkedin}/>{` LinkedIn: `}
                   <a className="text-white" href="https://www.linkedin.com/in/matteo-colombo-21238130/" target="_blank" rel="noopener noreferrer">matteo-colombo</a>
