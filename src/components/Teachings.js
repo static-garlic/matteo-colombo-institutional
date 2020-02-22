@@ -2,8 +2,8 @@ import React, {Fragment} from "react";
 import PropTypes from "prop-types";
 
 export const Teachings = ({teachings}) =>
-  <div className="StandardPublications">
-    <h3 className="pt-5 pb-2">{teachings.teachingType}</h3>
+  <div className="Teachings pb-4">
+    <h3>{teachings.teachingType}</h3>
     {teachings.teachings.map(teachingTopic =>
       <Fragment key={teachingTopic.topic}>
         <h5 className="font-weight-bold pt-3 pb-1">{teachingTopic.topic}</h5>

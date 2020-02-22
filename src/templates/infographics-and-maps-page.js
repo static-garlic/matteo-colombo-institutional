@@ -14,7 +14,7 @@ export const InfographicsAndMapsPageTemplate = ({ title, subtitle, infographicsL
       <Container>
         <Row>
           <Col>
-            <h4 className="pb-3">{subtitle}</h4>
+            <h6 className="pb-3">{subtitle}</h6>
           </Col>
         </Row>
         <Row>

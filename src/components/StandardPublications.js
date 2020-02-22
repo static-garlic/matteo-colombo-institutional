@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const StandardPublications = ({publications}) =>
   <div className="StandardPublications">
-    <h3 className="pt-5 pb-2">{publications.title}</h3>
+    <h3 className="pt-4 pb-2">{publications.title}</h3>
     {publications.subtitle ? <p className="font-italic">{publications.subtitle}:</p> : null}
     {publications.articlesPerLanguage.map(articlesPerLanguage =>
       <Fragment key={articlesPerLanguage.language}>
@@ -23,14 +23,16 @@ export const StandardPublications = ({publications}) =>
       </Fragment>
     )
     }
-    <p className="pt-3">
-      <Fragment>
-        {publications.additionalInfo ? <span>{publications.additionalInfo} </span> : null}
-        {publications.additionalInfoLink ?
-          <a href={publications.additionalInfoLink} target="_blank"
-             rel="noopener noreferrer">{publications.additionalInfoLink}</a> : null}
-      </Fragment>
-    </p>
+    {publications.additionalInfo ?
+      <p className="pt-3">
+        <Fragment>
+          <span>{publications.additionalInfo} </span>
+          {publications.additionalInfoLink ?
+            <a href={publications.additionalInfoLink} target="_blank"
+               rel="noopener noreferrer">{publications.additionalInfoLink}</a> : null}
+        </Fragment>
+      </p> : null
+    }
   </div>
 ;
 

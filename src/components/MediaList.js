@@ -2,8 +2,8 @@ import React, {Fragment} from "react";
 import PropTypes from "prop-types";
 
 export const MediaList = ({mediaList}) =>
-  <div className="StandardPublications">
-    <h3 className="pt-5 pb-2">{mediaList.mediaType}</h3>
+  <div className="MediaList pb-4">
+    <h3 className="pb-2">{mediaList.mediaType}</h3>
     {mediaList.mediaPerLanguage.map(mediaPerLanguage =>
       <Fragment key={mediaPerLanguage.language}>
         <h5 className="font-weight-bold">{mediaPerLanguage.language}</h5>

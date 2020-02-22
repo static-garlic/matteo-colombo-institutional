@@ -14,9 +14,9 @@ export const MediaPageTemplate = ({ title, sectionIntro, content, contentCompone
     <Fragment>
       <SectionJumbotron title={title}/>
       <Container>
-        <Row>
+        <Row className="pb-4">
           <Col>
-            <h4>{sectionIntro}</h4>
+            <h6>{sectionIntro}</h6>
           </Col>
         </Row>
         <Row>
@@ -33,7 +33,7 @@ export const MediaPageTemplate = ({ title, sectionIntro, content, contentCompone
             }
           </Col>
         </Row>
-        <Row className="pt-5">
+        <Row className="pt-2">
           <Col>
             <PageContent className="content" content={content} />
           </Col>
