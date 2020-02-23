@@ -71,6 +71,7 @@ collections:
         name: "biography"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "biography-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/biography"}
           - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Relative Links", name: relativeLinks, widget: list, fields: [{label: Text, name: text, widget: string}, {label: "Linked Text", name: linkText, widget: string}, {label: Link, name: link, widget: string}]}
