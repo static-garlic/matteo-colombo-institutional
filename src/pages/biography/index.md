@@ -1,8 +1,7 @@
 ---
 templateKey: biography-page
 path: /biography
-title: >-
-    Biography
+title: Biography test
 relativeLinks:
   - link: /publications
     linkText: here
