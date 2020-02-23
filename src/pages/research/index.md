@@ -1,7 +1,5 @@
 ---
-templateKey: 'research-page'
-path: /research
-title: Research
+title: Research test
 ---
 ### Research interests
 Middle East politics, jihadism, sectarianism, data analysis, social media analysis, Italian foreign policy
