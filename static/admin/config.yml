@@ -70,6 +70,8 @@ collections:
         label: "Biography Page"
         name: "biography"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "biography-page"}
+          - {label: Title, name: title, widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Relative Links", name: relativeLinks, widget: list, fields: [{label: Text, name: text, widget: string}, {label: "Linked Text", name: linkText, widget: string}, {label: Link, name: link, widget: string}]}
           - {label: "CV Link", name: cvLink, widget: object, fields: [{label: Text, name: text, widget: string}, {label: "Linked Text", name: linkText, widget: string}]}
