@@ -1,7 +1,9 @@
 ---
 templateKey: index-page
-title: Culo
-image: /img/apple-touch-icon.png
+title: >-
+  ISPI Associate Research Fellow (MENA Programme), Ph.D. Researcher, Journalist,
+  Infographics Designer
+image: /img/home-jumbotron.png
 sectionCards:
   - sectionDesc: A list of articles is available here
     sectionImage: /img/publications-card.png
@@ -12,8 +14,5 @@ sectionCards:
   - sectionDesc: A list of interviews is available here
     sectionImage: /img/media-card.png
     sectionTitle: Media
-  - sectionDesc: Culo desc
-    sectionImage: /img/blog-index.jpg
-    sectionTitle: Culo
 ---
 
