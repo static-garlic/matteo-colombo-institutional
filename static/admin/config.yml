@@ -416,6 +416,16 @@ collections:
               }
               ]
           }
+      - file: "src/pages/infographics-and-maps/index.md"
+        label: "Infographics and Map Page"
+        name: "infographics-and-maps"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "infographics-and-maps-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/infographics-and-maps"}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: object, fields: [{label: Text, name: text, widget: string, required: false}, {label: Link, name: link, widget: string, required: false}]}, {label: "Image", name: image, widget: image}]}
+          - {label: Disclaimer, name: disclaimer, widget: string}
       - file: "src/pages/technical-skills/index.md"
         label: "Technical Skills"
         name: "technicalSkills"
@@ -723,13 +733,3 @@ collections:
               }
               ]
           }
-      - file: "src/pages/infographics-and-maps/index.md"
-        label: "Infographics and Map Page"
-        name: "infographics-and-maps"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "infographics-and-maps-page"}
-          - {label: Path, name: path, widget: "hidden", default: "/infographics-and-maps"}
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Link, name: link, widget: string}]}, {label: "Image", name: image, widget: image}]}
-          - {label: Disclaimer, name: disclaimer, widget: string}
