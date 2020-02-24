@@ -1,7 +1,7 @@
 ---
 templateKey: infographics-and-maps-page
 path: /infographics-and-maps
-title: Infographics and map
+title: Infographics and maps
 subtitle: 'A selection of the most recent maps and infographics is available here:'
 infographicsList:
   - caption:
@@ -61,6 +61,10 @@ infographicsList:
         https://www.ispionline.it/en/pubblicazione/kingdom-militias-libyas-second-war-post-qadhafi-succession-23121
       text: The territorial gains of Haftar in Libya
     image: /img/infographic-territorial-gains.png
+  - caption:
+      link: ''
+      text: Prova
+    image: /img/14298.jpg
 disclaimer: >-
   All images © 2016-2019 Italian Institute for International Political Studies
   (ISPI). Please do not share or reproduce without attribution.
