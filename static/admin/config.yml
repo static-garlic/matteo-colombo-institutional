@@ -427,157 +427,157 @@ collections:
           - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: object, fields: [{label: Text, name: text, widget: string, required: false}, {label: Link, name: link, widget: string, required: false}]}, {label: "Image", name: image, widget: image}]}
           - {label: Disclaimer, name: disclaimer, widget: string}
       - file: "src/pages/teaching/index.md"
-          label: "Teaching"
-          name: "teaching"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "teaching-page"}
-            - {label: Path, name: path, widget: "hidden", default: "/teaching"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {
-              label: "Modules",
-              name: "modules",
-              widget: object,
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "teaching-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/teaching"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {
+            label: "Modules",
+            name: "modules",
+            widget: object,
+            fields: [
+            {
+              label: "Teaching Type",
+              name: teachingType,
+              widget: string
+            },
+            {
+              label: "Teachings",
+              name: "teachings",
+              widget: list,
               fields: [
               {
-                label: "Teaching Type",
-                name: teachingType,
+                label: "Topic",
+                name: topic,
                 widget: string
               },
               {
-                label: "Teachings",
-                name: "teachings",
+                label: "Lectures",
+                name: lectures,
                 widget: list,
-                fields: [
-                {
-                  label: "Topic",
-                  name: topic,
-                  widget: string
-                },
-                {
-                  label: "Lectures",
-                  name: lectures,
-                  widget: list,
-                  fields:
-                    [
-                    {
-                      label: "Title",
-                      name: title,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "Course",
-                      name: course,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "University",
-                      name: university,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "Year",
-                      name: year,
-                      widget: string,
-                      required: false
-                    }
-                    ]
-                }
-                ]
+                fields:
+                  [
+                  {
+                    label: "Title",
+                    name: title,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "Course",
+                    name: course,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "University",
+                    name: university,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "Year",
+                    name: year,
+                    widget: string,
+                    required: false
+                  }
+                  ]
               }
               ]
             }
-            - {
-              label: "Guest Lectures",
-              name: "guestLectures",
-              widget: object,
+            ]
+          }
+          - {
+            label: "Guest Lectures",
+            name: "guestLectures",
+            widget: object,
+            fields: [
+            {
+              label: "Teaching Type",
+              name: teachingType,
+              widget: string
+            },
+            {
+              label: "Teachings",
+              name: "teachings",
+              widget: list,
               fields: [
               {
-                label: "Teaching Type",
-                name: teachingType,
+                label: "Topic",
+                name: topic,
                 widget: string
               },
               {
-                label: "Teachings",
-                name: "teachings",
+                label: "Lectures",
+                name: lectures,
                 widget: list,
-                fields: [
-                {
-                  label: "Topic",
-                  name: topic,
-                  widget: string
-                },
-                {
-                  label: "Lectures",
-                  name: lectures,
-                  widget: list,
-                  fields:
-                    [
-                    {
-                      label: "Title",
-                      name: title,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "Course",
-                      name: course,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "University",
-                      name: university,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "Year",
-                      name: year,
-                      widget: string,
-                      required: false
-                    },
-                    {
-                      label: "Links Section",
-                      name: linkSection,
-                      widget: object,
-                      fields:
-                        [
+                fields:
+                  [
+                  {
+                    label: "Title",
+                    name: title,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "Course",
+                    name: course,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "University",
+                    name: university,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "Year",
+                    name: year,
+                    widget: string,
+                    required: false
+                  },
+                  {
+                    label: "Links Section",
+                    name: linkSection,
+                    widget: object,
+                    fields:
+                      [
+                      {
+                        label: "Links Text",
+                        name: linksText,
+                        widget: string,
+                        required: false
+                      },
+                      {
+                        label: "Links",
+                        name: links,
+                        widget: list,
+                        fields: [
                         {
-                          label: "Links Text",
-                          name: linksText,
+                          label: "Text",
+                          name: text,
                           widget: string,
                           required: false
                         },
                         {
-                          label: "Links",
-                          name: links,
-                          widget: list,
-                          fields: [
-                          {
-                            label: "Text",
-                            name: text,
-                            widget: string,
-                            required: false
-                          },
-                          {
-                            label: "Link",
-                            name: link,
-                            widget: string,
-                            required: false
-                          }
-                          ]
+                          label: "Link",
+                          name: link,
+                          widget: string,
+                          required: false
                         }
                         ]
-                    }
-                    ]
-                }
-                ]
+                      }
+                      ]
+                  }
+                  ]
               }
               ]
             }
+            ]
+          }
       - file: "src/pages/technical-skills/index.md"
         label: "Technical Skills"
         name: "technicalSkills"
