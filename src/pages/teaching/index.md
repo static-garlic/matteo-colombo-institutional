@@ -23,6 +23,12 @@ modules:
           university: University of Milan
           year: '2019'
       topic: Methodology
+    - lectures:
+        - course: Prova
+          title: Prova
+          university: Prova
+          year: '2011'
+      topic: Prova
 guestLectures:
   teachingType: Guest Lectures
   teachings:
@@ -93,5 +99,16 @@ guestLectures:
             (IMESI)
           year: '2018'
       topic: Middle East Politics
+    - lectures:
+        - course: Prova
+          linkSection:
+            links:
+              - link: Ciao
+                text: Ciao
+            linksText: Prova
+          title: Prova
+          university: Prova
+          year: '2012'
+      topic: Prova
 ---
 
