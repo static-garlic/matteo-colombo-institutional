@@ -81,12 +81,17 @@ collections:
         label: "Research"
         name: "research"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "research-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/research"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/publications/index.md"
         label: "Publications"
         name: "publications"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "publications-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/publications"}
+          - {label: "Title", name: "title", widget: "string"}
           - {
             label: "Peer-Reviewed Journal Articles",
             name: "peerArticles",
@@ -393,6 +398,8 @@ collections:
         label: "Technical Skills"
         name: "technicalSkills"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "technical-skills-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/technical-skills"}
           - {label: "Title", name: "title", widget: "string"}
           - {
             label: "Technical Skills List",
@@ -411,6 +418,8 @@ collections:
         label: "Language Skills"
         name: "languageSkills"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "language-skills-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/language-skills"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Native Speaker", name: nativeSpeaker,widget: string}
           - {
@@ -430,6 +439,9 @@ collections:
         label: "Teaching"
         name: "teaching"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "teaching-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/teaching"}
+          - {label: "Title", name: "title", widget: "string"}
           - {
             label: "Modules",
             name: "modules",
@@ -568,6 +580,9 @@ collections:
         label: "Media"
         name: "media"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "media-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/media"}
+          - {label: "Title", name: "title", widget: "string"}
           - {
             label: "Section Intro",
             name: sectionIntro,
@@ -690,6 +705,8 @@ collections:
         label: "Infographics and Map Page"
         name: "infographics-and-maps"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "infographics-and-maps-page"}
+          - {label: Path, name: path, widget: "hidden", default: "/infographics-and-maps"}
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: "Infographics List", name: infographicsList, widget: list, fields: [{label: "Caption", name: caption, widget: object, fields: [{label: Text, name: text, widget: string}, {label: Link, name: link, widget: string}]}, {label: "Image", name: image, widget: image}]}
