@@ -48,6 +48,11 @@ press:
           publishedOn: Haaretz
           title: Europe ramps up its war on ISIS
           year: '2015'
+        - author: adgsfdg
+          link: afdgdhgfhg
+          publishedOn: adfgf
+          title: fdsgd
+          year: '1111'
   mediaType: Press
 television:
   mediaPerLanguage:
