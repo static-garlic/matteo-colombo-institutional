@@ -1,7 +1,7 @@
 ---
 templateKey: publications-page
 path: /publications
-title: Publication
+title: Publications
 peerArticles:
   articles:
     - author: Matteo Colombo and Arturo Varvelli
@@ -48,6 +48,11 @@ thinkTankArticles:
           publishedOn: EuroMeSCo Policy Brief
           title: 'Turkey and the EU: a new path toward a shared security policy'
           year: 2016
+        - author: Prova author
+          link: 'http://www.google.it'
+          publishedOn: Prova published
+          title: Prova
+          year: 2000
       language: English
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
