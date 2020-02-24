@@ -33,12 +33,10 @@ guestLectures:
               university: "Italian Institute for International Political Studies (ISPI)"
               year: "2018-2019"
               linkSection:
-                linksText: "Click here to download the evaluation for the Winter and Summer School lessons:"
+                linksText: ""
                 links:
-                    - text: "Winter"
-                      link: "www.google.it"
-                    - text: "Summer"
-                      link: "www.google.it"
+                    - text: ""
+                      link: ""
             - title: "The communication strategy of IS"
               course: "Guest lecture delivered as part of the module Anthropology of Communication"
               university: "Politecnico di Milano (University of Milan)"
@@ -64,12 +62,10 @@ guestLectures:
               university: "Italian Institute for International Political Studies (ISPI)"
               year: "2018-2019"
               linkSection:
-                linksText: "Click here to download the evaluation for the Winter and Summer School lessons:"
+                linksText: ""
                 links:
-                    - text: "Winter"
-                      link: "www.google.it"
-                    - text: "Summer"
-                      link: "www.google.it"
+                    - text: ""
+                      link: ""
             - title: "La questione libica e gli equilibri regionali nell’area afromediterranea"
               course: "Geopolitica del Mediterraneo"
               university: "University of Palermo – Istituto Mediterraneo Studi Internazionali (IMESI)"
