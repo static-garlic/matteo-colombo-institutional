@@ -594,7 +594,7 @@ collections:
               label: "Skill Name", name: "skillName", widget: "string"
             },
             {
-              label: "Level", level: "level", widget: string
+              label: "Level", level: "level", widget: number
             }
             ]
           }
@@ -615,7 +615,7 @@ collections:
               label: "Skill Name", name: "skillName", widget: "string"
             },
             {
-              label: "Level", level: "level", widget: string
+              label: "Level", level: "level", widget: number
             }
             ]
           }
