@@ -111,32 +111,38 @@ collections:
                 {
                   label: "Title",
                   name: title,
-                  widget: string
+                  widget: string,
+                  required: false
                 },
                 {
                   label: "Author",
                   name: author,
-                  widget: string
+                  widget: string,
+                  required: false
                 },
                 {
                   label: "Year",
                   name: year,
-                  widget: number
+                  widget: number,
+                  required: false
                 },
                 {
                   label: "Published on",
                   name: publishedOn,
-                  widget: string
+                  widget: string,
+                  required: false
                 },
                 {
                   label: "Section",
                   name: section,
-                  widget: string
+                  widget: string,
+                  required: false
                 },
                 {
                   label: "Pages",
                   name: pages,
-                  widget: string
+                  widget: string,
+                  required: false
                 }
                 ]
             }
@@ -178,27 +184,32 @@ collections:
                       {
                         label: "Title",
                         name: title,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Author",
                         name: author,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Year",
                         name: year,
-                        widget: number
+                        widget: number,
+                        required: false
                       },
                       {
                         label: "Published on",
                         name: publishedOn,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Link",
                         name: link,
-                        widget: string
+                        widget: string,
+                        required: false
                       }
                       ]
                   }
@@ -244,22 +255,26 @@ collections:
                       {
                         label: "Author",
                         name: author,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Year",
                         name: year,
-                        widget: number
+                        widget: number,
+                        required: false
                       },
                       {
                         label: "Published on",
                         name: publishedOn,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Link",
                         name: link,
-                        widget: string
+                        widget: string,
+                        required: false
                       }
                       ]
                   }
@@ -305,22 +320,26 @@ collections:
                       {
                         label: "Author",
                         name: author,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Year",
                         name: year,
-                        widget: number
+                        widget: number,
+                        required: false
                       },
                       {
                         label: "Published on",
                         name: publishedOn,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Link",
                         name: link,
-                        widget: string
+                        widget: string,
+                        required: false
                       }
                       ]
                   }
@@ -366,17 +385,20 @@ collections:
                       {
                         label: "Year",
                         name: year,
-                        widget: number
+                        widget: number,
+                        required: false
                       },
                       {
                         label: "Published on",
                         name: publishedOn,
-                        widget: string
+                        widget: string,
+                        required: false
                       },
                       {
                         label: "Link",
                         name: link,
-                        widget: string
+                        widget: string,
+                        required: false
                       }
                       ]
                   }
