@@ -78,7 +78,7 @@ const Footer = class extends React.Component {
               <Row className="pb-2 small">
                 <Col>
                   <FontAwesomeIcon icon={faEnvelope}/>{` Mail: `}
-                  <a className="text-white" href="mailto:matteo.colombo@infodemia.it">matteo.colombo@infodemia.it</a>
+                  <a className="text-white" href="mailto:matteo.colombo1@unimi.it">matteo.colombo1@unimi.it</a>
                 </Col>
               </Row>
               <Row className="pb-2 small">
