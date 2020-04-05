@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'gatsby'
-import {Button, Collapse, Container, Nav, Navbar, NavbarToggler, NavItem} from "reactstrap";
+import {Collapse, Container, Nav, Navbar, NavbarToggler, NavItem} from "reactstrap";
 
 const NavigationBar = () => {
     const [isOpen, setIsOpen] = useState(false);

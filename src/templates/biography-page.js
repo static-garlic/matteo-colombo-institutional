@@ -5,8 +5,6 @@ import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Container, Col, Row} from "reactstrap";
-import {IndexPageTemplate} from "./index-page";
-
 
 export const BiographyPageTemplate = ({title, content, contentComponent, relativeLinks, cvLink, cvFile}) => {
   const PageContent = contentComponent || Content;
