@@ -14,6 +14,14 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - author: Matteo Colombo and Giuseppe Dentice
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
+          publishedOn: Approfondimento Mediterraneo Allargato
+          title: >-
+            L’accordo Turchia-Gna sui confini marittimi e i riflessi nelle
+            dinamiche trasversali del Mediterraneo Orientale
+          year: 2020
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
@@ -28,14 +36,6 @@ thinkTankArticles:
             Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
             egiziano
           year: 2019
-        - author: Matteo Colombo and Giuseppe Dentice
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
-          publishedOn: Approfondimento Mediterraneo Allargato
-          title: >-
-            L’accordo Turchia-Gna sui confini marittimi e i riflessi nelle
-            dinamiche trasversali del Mediterraneo Orientale
-          year: 2020
       language: Italian
     - articles:
         - author: Matteo Colombo and Sevgi Seçen
