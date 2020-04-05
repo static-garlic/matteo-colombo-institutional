@@ -2,6 +2,7 @@ import React from 'react'
 import {Button, Card, CardBody, CardText, CardTitle, Col, Row} from "reactstrap";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import {Link} from "gatsby";
 
 export const SectionCards = ({sectionCards}) => (
     <div className="SectionCards">
@@ -14,7 +15,9 @@ export const SectionCards = ({sectionCards}) => (
                   <CardBody className="text-center">
                     <CardTitle className="text-primary">{sectionCard.sectionTitle}</CardTitle>
                     <CardText>{sectionCard.sectionDesc}</CardText>
-                    <Button color="primary">Show more</Button>
+                    <Link to={sectionCard.link} className="btn btn-primary" role="button">
+                      Show more
+                    </Link>
                   </CardBody>
                 </Card>
               </Col>
@@ -30,6 +33,7 @@ SectionCards.propTypes = {
         sectionImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
         sectionTitle: PropTypes.string,
         sectionDesc: PropTypes.string,
+        link: PropTypes.string,
       })
   ),
 };
