@@ -4,14 +4,7 @@ import PropTypes from "prop-types";
 
 export const SectionJumbotron = ({title}) => (
   <div className="SectionJumbotron">
-    <Jumbotron
-      fluid style={{
-      background: 'url(/img/section-jumbotron.jpg) no-repeat center center',
-      height: "10rem",
-      backgroundSize: "cover"
-    }}
-    >
-    </Jumbotron>
+    <Jumbotron fluid />
     <Container>
       <Row>
         <Col sm="auto">

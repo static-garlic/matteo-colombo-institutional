@@ -1,0 +1,11 @@
+.SectionJumbotron .jumbotron {
+  background: url(../../static/img/section-jumbotron.jpg) no-repeat center center;
+  height: 5rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .SectionJumbotron .jumbotron {
+    height: 10rem;
+  }
+}

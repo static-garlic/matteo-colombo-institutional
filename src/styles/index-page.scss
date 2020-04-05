@@ -4,13 +4,67 @@
 }
 
 .content-wrapper {
-  padding-bottom: $footer-height + 2rem
+  padding-bottom: $footer-height + 20rem
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: $footer-height;
+  height: $footer-height + 17rem;
   background-color: theme-color("primary");
+}
+
+.IndexPage .jumbotron {
+  height: 10rem;
+}
+
+.IndexPage .jumbotron h2 {
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    height: $footer-height + 3rem;
+  }
+
+  .content-wrapper {
+    padding-bottom: $footer-height + 6rem
+  }
+}
+
+@media (min-width: 768px) {
+  .IndexPage .jumbotron {
+    height: 20rem;
+  }
+
+  .IndexPage .jumbotron h2 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    height: $footer-height + 1rem;
+  }
+
+  .content-wrapper {
+    padding-bottom: $footer-height + 4rem
+  }
+}
+
+@media (min-width: 992px) {
+  .IndexPage .jumbotron {
+    height: 30rem;
+  }
+
+  .IndexPage .jumbotron h2 {
+    font-size: 3rem;
+  }
+
+  .footer {
+    height: $footer-height;
+  }
+
+  .content-wrapper {
+    padding-bottom: $footer-height + 3rem
+  }
 }

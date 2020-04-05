@@ -11,29 +11,28 @@ export const IndexPageTemplate = ({
                                     title,
                                     sectionCards
                                   }) => (
-    <div className="IndexPage">
-      <Jumbotron
-          fluid style={{
-        background: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            }) no-repeat center center`,
-        height: "30rem",
-        backgroundSize: "cover",
-        display: "flex"
-      }}
-      >
-        <Row className="my-auto">
-          <Col sm={{size: 6, offset: 1}}>
-            <h2 className="py-2 text-white">
-              {title}
-            </h2>
-          </Col>
-        </Row>
-      </Jumbotron>
-      <Container fluid className="px-lg-5">
-        <SectionCards sectionCards={sectionCards}/>
-      </Container>
-    </div>
+  <div className="IndexPage">
+    <Jumbotron
+      fluid style={{
+      background: `url(${
+        !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+      }) no-repeat center center`,
+      backgroundSize: "cover",
+      display: "flex"
+    }}
+    >
+      <Row className="my-auto">
+        <Col xs={{size: 6, offset: 1}}>
+          <h2 className="py-2 text-white">
+            {title}
+          </h2>
+        </Col>
+      </Row>
+    </Jumbotron>
+    <Container fluid className="px-lg-5">
+      <SectionCards sectionCards={sectionCards}/>
+    </Container>
+  </div>
 );
 
 IndexPageTemplate.propTypes = {
@@ -46,13 +45,13 @@ const IndexPage = ({data}) => {
   const {frontmatter} = data.markdownRemark;
 
   return (
-      <Layout>
-        <IndexPageTemplate
-            image={frontmatter.image}
-            title={frontmatter.title}
-            sectionCards={frontmatter.sectionCards}
-        />
-      </Layout>
+    <Layout>
+      <IndexPageTemplate
+        image={frontmatter.image}
+        title={frontmatter.title}
+        sectionCards={frontmatter.sectionCards}
+      />
+    </Layout>
   )
 };
 

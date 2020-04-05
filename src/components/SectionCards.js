@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Card, CardBody, CardText, CardTitle, Col, Row} from "reactstrap";
+import {Card, CardBody, CardText, CardTitle, Col, Row} from "reactstrap";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import {Link} from "gatsby";
@@ -9,8 +9,11 @@ export const SectionCards = ({sectionCards}) => (
       <Row>
         {
           sectionCards.map(sectionCard =>
-              <Col sm={Math.floor(12/sectionCards.length)} key={sectionCard.sectionTitle}>
-                <Card>
+              <Col
+                xs={{size:8, offset:2}}
+                md={{size: Math.floor(12/sectionCards.length), offset: 0}} key={sectionCard.sectionTitle}
+              >
+                <Card className="mb-3 mb-md-0">
                   <PreviewCompatibleImage imageInfo={sectionCard.sectionImage} />
                   <CardBody className="text-center">
                     <CardTitle className="text-primary">{sectionCard.sectionTitle}</CardTitle>

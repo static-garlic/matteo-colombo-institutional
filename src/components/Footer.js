@@ -11,13 +11,13 @@ const Footer = class extends React.Component {
       <div className="footer">
         <Container fluid>
           <Row className="pt-2">
-            <Col sm="6" className="text-center">
+            <Col sm="8" lg="6" className="text-center">
               <Row>
                 <Col>
                   <h5 className="text-white pt-3 pb-2">Links</h5>
                 </Col>
               </Row>
-              <Row className="pb-2 small">
+              <Row className="pb-sm-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/">
                     Home
@@ -34,7 +34,7 @@ const Footer = class extends React.Component {
                   </Link>
                 </Col>
               </Row>
-              <Row className="pb-2 small">
+              <Row className="pb-sm-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/publications">
                     Publications
@@ -51,7 +51,7 @@ const Footer = class extends React.Component {
                   </Link>
                 </Col>
               </Row>
-              <Row className="pb-2 small">
+              <Row className="pb-sm-2 small">
                 <Col sm="4">
                   <Link className="nav-link text-white p-0" to="/language-skills">
                     Language Skills
@@ -69,7 +69,7 @@ const Footer = class extends React.Component {
                 </Col>
               </Row>
             </Col>
-            <Col sm="6" className="text-white text-center">
+            <Col sm="4" lg="6" className="text-white text-center">
               <Row>
                 <Col>
                   <h5 className="pt-3 pb-2">Contacts and Social Media</h5>
