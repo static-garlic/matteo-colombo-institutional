@@ -8,10 +8,10 @@ export const Skill = ({skill, skillLevels, skillNameColSize}) => {
     return (
       <div className="Skill">
         <Row className="pb-4">
-          <Col sm={skillNameColSize || "4"} className="align-self-end">
+          <Col xs={skillNameColSize || "4"} className="align-self-end">
             <h4 className="mb-0">{skill.skillName}</h4>
           </Col>
-          <Col sm={skillNameColSize ? 12 - skillNameColSize : 8}>
+          <Col xs={skillNameColSize ? 12 - skillNameColSize : 8}>
             <SkillLevel level={skill.level} skillLevels={skillLevels} />
           </Col>
         </Row>

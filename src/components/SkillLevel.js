@@ -8,7 +8,7 @@ export const SkillLevel = ({level, skillLevels}) => (
     <Row>
       {
         skillLevels.map((skillLevel, index) =>
-          <Col sm="auto">
+          <Col xs={{size: Math.floor(12/skillLevels.length), offset: 0}} md={{size: Math.min(Math.floor(12/skillLevels.length), 3), offset: 0}}>
             <Row>
               <Col className={`text-center small ${level > index ? "text-primary" : "text-secondary"}`}>
                 {skillLevel}
@@ -16,8 +16,8 @@ export const SkillLevel = ({level, skillLevels}) => (
             </Row>
             <Row>
               <Col>
-                <svg width="100" height="15">
-                  <rect width="100" height="15" className={`rect-border ${level > index ? "rect-fill" : ""}`}/>
+                <svg style={{width: "100%", height: "15"}}>
+                  <rect width="100%" height="100%" className={`rect-border ${level > index ? "rect-fill" : ""}`}/>
                 </svg>
               </Col>
             </Row>

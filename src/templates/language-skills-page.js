@@ -21,12 +21,12 @@ export const LanguageSkillsPageTemplate = ({title, nativeSpeaker, languageSkills
   return (
     <Fragment>
       <SectionJumbotron title={title}/>
-      <Container>
+      <Container className="LanguageSkills">
         <Row className="pb-4">
-          <Col sm={skillNameColSize || "4"} className="align-self-end">
+          <Col xs={skillNameColSize || "4"} className="align-self-end">
             <h4 className="mb-0">{nativeSpeaker}</h4>
           </Col>
-          <Col sm={skillNameColSize ? 12 - skillNameColSize : 8}>
+          <Col xs={skillNameColSize ? 12 - skillNameColSize : 8}>
             <h4 className="mb-0">Native Speaker</h4>
           </Col>
         </Row>
