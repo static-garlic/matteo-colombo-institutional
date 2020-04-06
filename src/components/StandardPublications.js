@@ -16,7 +16,7 @@ export const StandardPublications = ({publications}) =>
                 {article.author ? <span>{article.author}, </span> : null}
                 <span>{article.title}, </span>
                 <span className="font-italic">{article.publishedOn}, {article.year}</span>
-                {article.link ? <a href={article.link} target="_blank" rel="noopener noreferrer">: {article.link} </a> : null}
+                {article.link ? <a className="publicationLink" href={article.link} target="_blank" rel="noopener noreferrer">: {article.link} </a> : null}
               </p>
             )
         }

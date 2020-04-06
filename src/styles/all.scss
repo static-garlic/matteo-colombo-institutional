@@ -1,8 +1,11 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import '../../node_modules/react-image-lightbox/style.css';
 
 @import "index-page";
+@import "standard-publications";
 @import "language-skills";
 @import "skill";
 @import "skill-level";
+@import "media-list";
 @import "section-jumbotron";

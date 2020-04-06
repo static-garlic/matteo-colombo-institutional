@@ -1,19 +1,6 @@
 import React, {Fragment, useCallback, useState} from "react";
 import Gallery from "react-photo-gallery";
-import Carousel, {Modal, ModalGateway} from "react-images";
-
-const CustomFooterCaption = ({ currentView, isModal }) => isModal ? (
-  <div>
-    <span>{currentView.caption.text}</span>
-    {currentView.caption.link ?
-      <Fragment>
-        <span> - </span>
-        <a href={currentView.caption.link} target="_blank"
-           rel="noopener noreferrer">{currentView.caption.link}</a>
-      </Fragment>
-      : null}
-  </div>
-) : null;
+import Lightbox from 'react-image-lightbox';
 
 export const InfographicsGallery = ({infographicsList}) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -29,31 +16,42 @@ export const InfographicsGallery = ({infographicsList}) => {
     setViewerIsOpen(false);
   };
 
+  const movePrev = () => {
+    setCurrentImage(prev => (prev + photos.length - 1) % photos.length);
+  };
+
+  const moveNext = () => {
+    setCurrentImage(prev => (prev + + 1) % photos.length);
+  };
 
   const photos = infographicsList.map(i => ({src: `/img/${i.image.relativePath}`, caption: i.caption, width: i.image.childImageSharp.fixed.width, height: i.image.childImageSharp.fixed.height}))
 
   return (
     <div>
       <Gallery photos={photos} onClick={openLightbox} margin={10}/>
-      <ModalGateway>
         {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos}
-              components={{ FooterCaption: CustomFooterCaption }}
-              styles={{
-                view: base => ({
-                  ...base,
-                  '& > img': {
-                    maxHeight: '87vh',
-                  },
-                })
-              }}
-            />
-          </Modal>
+          <Lightbox
+            mainSrc={photos[currentImage].src}
+            nextSrc={photos[(currentImage + 1) % photos.length].src}
+            prevSrc={photos[(currentImage + photos.length - 1) % photos.length].src}
+            onCloseRequest={closeLightbox}
+            onMovePrevRequest={movePrev}
+            onMoveNextRequest={moveNext}
+            imageCaption={
+              <Fragment>
+                <span>{photos[currentImage].caption.text}</span>
+                {photos[currentImage].caption.link ?
+                  <Fragment>
+                    <span> - </span>
+                    <a href={photos[currentImage].caption.link} target="_blank"
+                       rel="noopener noreferrer">{photos[currentImage].caption.link}</a>
+                  </Fragment>
+                  : null}
+              </Fragment>
+              }
+            imagePadding={50}
+          />
         ) : null}
-      </ModalGateway>
     </div>
   );
 };

@@ -13,7 +13,7 @@ export const MediaList = ({mediaList}) =>
               {media.author ? <span>{media.author}, </span> : null}
               <span>{media.title}, </span>
               <span className="font-italic">{media.publishedOn}, {media.year} </span>
-              {media.link ? <Fragment><span>: </span><a href={media.link} target="_blank" rel="noopener noreferrer">{media.link}</a></Fragment> : null}
+              {media.link ? <Fragment><span>: </span><a className="mediaLink" href={media.link} target="_blank" rel="noopener noreferrer">{media.link}</a></Fragment> : null}
             </p>
           )
         }
