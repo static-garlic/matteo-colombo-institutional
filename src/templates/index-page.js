@@ -21,9 +21,9 @@ export const IndexPageTemplate = ({
       display: "flex"
     }}
     >
-      <Container fluid className="px-5">
+      <Container fluid className="px-md-5 px-sm-4">
       <Row>
-        <Col xs={{size: 6}}>
+        <Col xs={{size: 8}} sm={{size: 7}} xl={{size: 6}}>
           <h2 className="py-2 text-white">
             {title}
           </h2>
