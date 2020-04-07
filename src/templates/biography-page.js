@@ -16,7 +16,7 @@ export const BiographyPageTemplate = ({title, content, contentComponent, relativ
         <Row>
           <Col>
             <p>
-              <PageContent className="content" content={content}/>
+              <PageContent className="content biographyPageContent" content={content}/>
             </p>
             <p>{`${cvLink.text} `}
               <a  target="_blank" rel="noopener noreferrer" href={`/img/${cvFile.relativePath}`}>{cvLink.linkText}</a>
