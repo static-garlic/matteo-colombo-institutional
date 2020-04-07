@@ -21,13 +21,15 @@ export const IndexPageTemplate = ({
       display: "flex"
     }}
     >
-      <Row className="my-auto">
-        <Col xs={{size: 6, offset: 1}}>
+      <Container fluid className="px-5">
+      <Row>
+        <Col xs={{size: 6}}>
           <h2 className="py-2 text-white">
             {title}
           </h2>
         </Col>
       </Row>
+      </Container>
     </Jumbotron>
     <Container fluid className="px-lg-5">
       <SectionCards sectionCards={sectionCards}/>

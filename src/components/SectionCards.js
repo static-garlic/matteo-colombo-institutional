@@ -1,11 +1,12 @@
 import React from 'react'
-import {Card, CardBody, CardText, CardTitle, Col, Row} from "reactstrap";
+import {Card, CardBody, CardText, CardTitle, Col, Container, Row} from "reactstrap";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import {Link} from "gatsby";
 
 export const SectionCards = ({sectionCards}) => (
     <div className="SectionCards">
+      <Container>
       <Row>
         {
           sectionCards.map(sectionCard =>
@@ -27,6 +28,7 @@ export const SectionCards = ({sectionCards}) => (
           )
         }
       </Row>
+      </Container>
     </div>
 );
 
