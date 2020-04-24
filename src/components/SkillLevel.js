@@ -16,7 +16,7 @@ export const SkillLevel = ({level, skillLevels}) => (
             </Row>
             <Row>
               <Col>
-                <svg style={{width: "100%", height: "15"}}>
+                <svg style={{width: "100%", height: "15px"}}>
                   <rect width="100%" height="100%" className={`rect-border ${level > index ? "rect-fill" : ""}`}/>
                 </svg>
               </Col>

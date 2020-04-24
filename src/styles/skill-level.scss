@@ -7,3 +7,9 @@
 .SkillLevel .rect-fill {
   fill: theme-color("primary");
 }
+
+@media (max-width: 575.98px) {
+  .SkillLevel .small {
+    font-size: 60%;
+  }
+}
