@@ -134,5 +134,11 @@ guestLectures:
           university: Palermo University – IMESI
           year: '2016'
       topic: Master in communication for international relations
+    - lectures:
+        - course: Master in international relations
+          title: IS communication strategy
+          university: Pavia University
+          year: '2016'
+      topic: Master in international relations
 ---
 
