@@ -54,7 +54,6 @@ modules:
           title: 'Working in IOs, NGOs and think tanks'
           university: University of Milan
           year: '2019'
-        - title: www.twitter.com
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
@@ -69,7 +68,6 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - {}
-        - title: www.twitter.com
       topic: 'Democracy and regime changes in Arab, African and Asian countries'
     - lectures:
         - course: Winter and Summer School
