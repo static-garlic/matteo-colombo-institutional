@@ -73,10 +73,18 @@ television:
   mediaPerLanguage:
     - language: Italian
       mediaList:
+        - publishedOn: Checkpoint - Rainews24
+          title: L'Egitto e la morte di Hosni Mubarak
+          year: '2020'
         - link: >-
             https://www.radio24.ilsole24ore.com/programmi/effettogiorno/puntata/puntata-25-febbraio-2020-125036-ACZ6BsLB
           publishedOn: Effetto Giorno - Radio 24
           title: 'La Morte di Hosni Mubarak '
+          year: '2020'
+        - link: >-
+            https://www.raiplayradio.it/audio/2020/02/RADIO1-GIORNO-PER-GIORNO-31d71708-9663-42bf-8d91-31284ab1b367.html
+          publishedOn: Radio1 Giorno per Giorno
+          title: Patrick Zaky e Giulio Regeni
           year: '2020'
         - link: ''
           publishedOn: Rai News 24
@@ -100,8 +108,6 @@ television:
             Caso Claudio Regeni. Il rientro dell'ambasciatore italiano in Egitto
             al Cairo
           year: '2017'
-        - {}
-        - {}
   mediaType: Television and radio
 ---
 
