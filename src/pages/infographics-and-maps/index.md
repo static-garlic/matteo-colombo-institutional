@@ -55,15 +55,15 @@ infographicsList:
   - caption:
       link: >-
         https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n10-23201
-      text: Bin Salman’s view of the Middle East
-    image: /img/infographic-bin-salman-view.png
+      text: Egypt's Foreign policy
+    image: /img/egittopoliticaestera-14maggio-.png
   - caption:
       link: >-
         https://www.ispionline.it/en/pubblicazione/kingdom-militias-libyas-second-war-post-qadhafi-succession-23121
       text: The territorial gains of Haftar in Libya
     image: /img/infographic-territorial-gains.png
 disclaimer: >-
-  All images © 2016-2019 Italian Institute for International Political Studies
+  All images © 2016-2020 Italian Institute for International Political Studies
   (ISPI). Please do not share or reproduce without attribution.
 ---
 
