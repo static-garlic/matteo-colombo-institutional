@@ -34,7 +34,22 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
       topic: 'Terrorism, ideology, communication and counteractions'
-    - topic: Politics and energy in the enlarged Mediterranean region
+    - lectures:
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: >-
+            The energy dependence relationship between the two shores of the
+            Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: The gas quest in the Eastern Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: Geopolitics of oil and gas pipelines
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Politics and energy in the enlarged Mediterranean region
     - topic: Terrorism in its many forms
     - topic: 'Design your research: Skills and methodologies in IR'
     - lectures:
