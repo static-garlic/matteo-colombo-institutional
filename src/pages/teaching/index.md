@@ -35,6 +35,22 @@ modules:
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
+    - lectures:
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: >-
+            The energy dependence relationship between the two shores of the
+            Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: The gas quest in the Eastern Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: Geopolitics of oil and gas pipelines
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Politics and energy in the enlarged Mediterranean region
 guestLectures:
   teachingType: Guest Lectures
   teachings:
