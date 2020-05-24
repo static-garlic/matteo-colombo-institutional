@@ -89,6 +89,6 @@ television:
             Caso Claudio Regeni. Il rientro dell'ambasciatore italiano in Egitto
             al Cairo
           year: '2017'
-  mediaType: Television
+  mediaType: Television and radio
 ---
 
