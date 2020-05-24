@@ -128,5 +128,11 @@ guestLectures:
           university: Polytechnic University of Milan
           year: '2017'
       topic: Anthropology of communication
+    - lectures:
+        - course: Master in communication for international relations
+          title: Libya and the wider Mediterranean region
+          university: Palermo University – IMESI
+          year: '2016'
+      topic: Master in communication for international relations
 ---
 
