@@ -6,6 +6,16 @@ modules:
   teachingType: Course Coordinator
   teachings:
     - lectures:
+        - course: 'Terrorism - Terrorism, ideology, communication and counteractions'
+          title: 'Terrorism, history and contact points'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: 'Terrorism - Terrorism, ideology, communication and counteractions'
+          title: The communication strategy of Jihadist groups
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: 'Terrorism - Terrorism, ideology, communication and counteractions'
+    - lectures:
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
           university: University of Milan
