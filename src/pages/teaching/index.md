@@ -14,7 +14,7 @@ modules:
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Terrorism - Terrorism, ideology, communication and counteractions'
+      topic: 'Terrorism, ideology, communication and counteractions'
     - lectures:
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
@@ -33,8 +33,8 @@ modules:
           university: University of Milan
           year: '2019'
       topic: >-
-        Methodology - Design your research: Skills and methodologies in IR (with
-        Valerio Vignoli and Matteo Casiraghi)
+        Design your research: Skills and methodologies in IR (with Valerio
+        Vignoli and Matteo Casiraghi)
 guestLectures:
   teachingType: Guest Lectures
   teachings:
