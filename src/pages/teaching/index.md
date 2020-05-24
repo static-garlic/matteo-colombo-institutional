@@ -79,6 +79,26 @@ guestLectures:
           year: '2020'
       topic: 'Democracy and regime changes in Arab, African and Asian countries'
     - lectures:
+        - course: Politics of the Middle East
+          linkSection:
+            links:
+              - link: ''
+                text: ''
+            linksText: ''
+          title: 'Iraq: Researching an impossible stability'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics of the Middle East
+          linkSection:
+            links:
+              - link: ''
+                text: ''
+            linksText: ''
+          title: 'Syria: The catalyser of Middle Eastern politics'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Politics of the Middle East
+    - lectures:
         - course: Winter and Summer School
           linkSection:
             links:
@@ -113,29 +133,5 @@ guestLectures:
             Studies (ISPI)
           year: 2015-2016
       topic: Jihadism
-    - lectures:
-        - course: Winter and Summer School
-          linkSection:
-            links:
-              - link: ''
-                text: ''
-            linksText: ''
-          title: 'La minaccia terroristica nel vicino oriente: il caso dell’Egitto'
-          university: Italian Institute for International Political Studies (ISPI)
-          year: 2018-2019
-        - course: Geopolitica del Mediterraneo
-          linkSection:
-            links:
-              - link: ''
-                text: ''
-            linksText: ''
-          title: >-
-            La questione libica e gli equilibri regionali nell’area
-            afromediterranea
-          university: >-
-            University of Palermo – Istituto Mediterraneo Studi Internazionali
-            (IMESI)
-          year: '2018'
-      topic: Middle East Politics
 ---
 
