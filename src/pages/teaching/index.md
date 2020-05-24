@@ -32,6 +32,16 @@ modules:
           year: '2020'
       topic: Politics and energy in the enlarged Mediterranean region
     - lectures:
+        - course: Terrorism in its many forms
+          title: What is terrorism? Definition and general overview
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Terrorism in its many forms
+          title: Jihadism from al-Qa'ida to the Islamic State
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Terrorism in its many forms
+    - lectures:
         - course: ''
           title: With Matteo Casiraghi and Valerio Vignoli
           university: ''
