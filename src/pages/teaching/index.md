@@ -24,7 +24,16 @@ modules:
 guestLectures:
   teachingType: 'Course Instructor '
   teachings:
-    - topic: 'Terrorism, ideology, communication and counteractions'
+    - lectures:
+        - course: 'Terrorism, ideology, communication and counteractions'
+          title: 'Terrorism, history and contact points'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: 'Terrorism, ideology, communication and counteractions'
+          title: The communication strategy of Jihadist groups
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: 'Terrorism, ideology, communication and counteractions'
     - topic: Politics and energy in the enlarged Mediterranean region
     - topic: Terrorism in its many forms
     - topic: 'Design your research: Skills and methodologies in IR'
