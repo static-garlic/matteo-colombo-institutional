@@ -73,6 +73,11 @@ television:
   mediaPerLanguage:
     - language: Italian
       mediaList:
+        - link: >-
+            https://www.radio24.ilsole24ore.com/programmi/effettogiorno/puntata/puntata-25-febbraio-2020-125036-ACZ6BsLB
+          publishedOn: Radio 24
+          title: Effetto Giorno
+          year: '2020'
         - link: ''
           publishedOn: Rai News 24
           title: >-
@@ -95,6 +100,7 @@ television:
             Caso Claudio Regeni. Il rientro dell'ambasciatore italiano in Egitto
             al Cairo
           year: '2017'
+        - {}
   mediaType: Television and radio
 ---
 
