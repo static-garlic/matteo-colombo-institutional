@@ -15,7 +15,7 @@ relativeLinks:
 cvLink:
   linkText: here
   text: My curriculum vitae is available
-cvFile: /img/MatteoColomboCV.pdf
+cvFile: /img/curriculumvitae-matteo-colombo-.pdf
 ---
 I am Associate Research Fellow at the MENA Centre of the Italian Institute for International Political Studies (ISPI) (https://www.ispionline.it/it/bio/matteo-colombo) and a PhD Candidate in Political Studies at the University of Milan (NASP) (https://www.nasp.eu/people/students/students-cohorts/matteo-colombo.html). My dissertation studies Arabic Twitter discourse on the Islamic State. My defence will take place on the June, 16.
 
