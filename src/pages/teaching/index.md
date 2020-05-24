@@ -140,5 +140,11 @@ guestLectures:
           university: Pavia University
           year: '2016'
       topic: Master in international relations
+    - lectures:
+        - course: Master in communication for international relations
+          title: IS communication strategy
+          university: IULM University
+          year: '2015'
+      topic: Master in communication for international relations
 ---
 
