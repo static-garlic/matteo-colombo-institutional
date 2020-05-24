@@ -65,6 +65,9 @@ guestLectures:
   teachingType: Guest Lectures
   teachings:
     - lectures:
+        - title: www.twitter.com
+      topic: 'Democracy and regime changes in Arab, African and Asian countries'
+    - lectures:
         - course: Winter and Summer School
           linkSection:
             links:
