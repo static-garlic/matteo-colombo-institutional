@@ -73,6 +73,10 @@ guestLectures:
             institutionalisation and repression
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
+        - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          title: 'Egypt between square protests, elections and the military'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
       topic: 'Democracy and regime changes in Arab, African and Asian countries'
     - lectures:
         - course: Winter and Summer School
