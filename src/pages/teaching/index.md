@@ -62,7 +62,7 @@ modules:
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
 guestLectures:
-  teachingType: Guest Lectures  (Italian and English)
+  teachingType: Instructor (Italian and English)
   teachings:
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
