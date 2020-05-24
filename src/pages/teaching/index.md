@@ -94,18 +94,18 @@ guestLectures:
           title: Libya and the wider Mediterranean region
           university: Palermo University – IMESI
           year: '2016'
-      topic: Master in communication for international relations
+      topic: Communication for international relations
     - lectures:
         - course: Master in international relations
           title: IS communication strategy
           university: Pavia University
           year: '2016'
-      topic: Master in international relations
+      topic: International relations
     - lectures:
         - course: Master in communication for international relations
           title: IS communication strategy
           university: IULM University
           year: '2015'
-      topic: Master in communication for international relations
+      topic: Communication for international relations
 ---
 
