@@ -3,7 +3,7 @@ templateKey: teaching-page
 path: /teaching
 title: Teaching
 modules:
-  teachingType: Course Coordinator (Italian and English)
+  teachingType: Course Coordinator
   teachings:
     - lectures: []
       topic: >-
@@ -20,8 +20,7 @@ modules:
     - lectures: []
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
-        Vignoli and Matteo Casiraghi),  Italian Institute for International
-        Political Studies (ISPI), 2020 (English)
+        Vignoli and Matteo Casiraghi), University of Milan, 2020 (English)
 guestLectures:
   teachingType: 'Course Instructor '
   teachings:
