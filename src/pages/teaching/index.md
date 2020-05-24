@@ -33,7 +33,7 @@ guestLectures:
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Terrorism, ideology, communication and counteractions'
+      topic: 'Terrorism, ideology, communication and counteractions (Italian)'
     - lectures:
         - course: Politics and energy in the enlarged Mediterranean region
           title: >-
@@ -49,7 +49,7 @@ guestLectures:
           title: Geopolitics of oil and gas pipelines
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: Politics and energy in the enlarged Mediterranean region
+      topic: Politics and energy in the enlarged Mediterranean region (Italian)
     - topic: Terrorism in its many forms
     - topic: 'Design your research: Skills and methodologies in IR'
     - lectures:
