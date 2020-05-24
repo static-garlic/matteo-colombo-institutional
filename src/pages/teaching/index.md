@@ -61,7 +61,12 @@ guestLectures:
   teachingType: Guest Lectures
   teachings:
     - lectures:
-        - {}
+        - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          title: >-
+            A new "Arab Spring"? Protests, transitions and power restorations
+            from North Africa to the Middle East
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
         - {}
         - title: www.twitter.com
       topic: 'Democracy and regime changes in Arab, African and Asian countries'
