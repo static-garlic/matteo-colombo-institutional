@@ -42,10 +42,6 @@ modules:
           year: '2020'
       topic: Terrorism in its many forms
     - lectures:
-        - course: ''
-          title: With Matteo Casiraghi and Valerio Vignoli
-          university: ''
-          year: ''
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
           university: University of Milan
