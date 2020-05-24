@@ -62,6 +62,12 @@ press:
           publishedOn: Известия
           title: 'Круговая Тобрука: зачем Хафтару единоличная власть над Ливией '
           year: '2020'
+        - author: Эльнар Байназаров
+          link: >-
+            https://iz.ru/964194/elnar-bainazarov/khaftarskaia-podpis-soglasitsia-li-tobruk-na-mir
+          publishedOn: Известия
+          title: 'Хафтарская подпись: согласится ли Тобрук на мир'
+          year: '2020'
   mediaType: Press
 television:
   mediaPerLanguage:
