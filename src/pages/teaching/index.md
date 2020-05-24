@@ -42,10 +42,6 @@ modules:
           year: '2020'
       topic: Terrorism in its many forms
     - lectures:
-        - course: ''
-          title: With Matteo Casiraghi and Valerio Vignoli
-          university: ''
-          year: ''
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
           university: University of Milan
@@ -64,6 +60,9 @@ modules:
 guestLectures:
   teachingType: Guest Lectures
   teachings:
+    - lectures:
+        - title: www.twitter.com
+      topic: 'Democracy and regime changes in Arab, African and Asian countries'
     - lectures:
         - course: Winter and Summer School
           linkSection:
