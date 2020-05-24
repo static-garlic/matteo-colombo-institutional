@@ -32,7 +32,9 @@ modules:
           title: Geopolitics of oil and gas pipelines
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: Politics and energy in the enlarged Mediterranean region
+      topic: >-
+        Politics and energy in the enlarged Mediterranean region, Italian
+        Institute for International Political Studies (ISPI), 2020 (Italian)
     - lectures:
         - course: Terrorism in its many forms
           title: What is terrorism? Definition and general overview
@@ -42,7 +44,9 @@ modules:
           title: Jihadism from al-Qa'ida to the Islamic State
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: Terrorism in its many forms
+      topic: >-
+        Terrorism in its many forms, Italian Institute for International
+        Political Studies (ISPI), 2020 (Italian)
     - lectures:
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
@@ -62,9 +66,10 @@ modules:
           year: '2019'
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
-        Vignoli and Matteo Casiraghi)
+        Vignoli and Matteo Casiraghi),  Italian Institute for International
+        Political Studies (ISPI), 2020 (Italian)
 guestLectures:
-  teachingType: Instructor (Italian and English)
+  teachingType: 'Course Instructor '
   teachings:
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
