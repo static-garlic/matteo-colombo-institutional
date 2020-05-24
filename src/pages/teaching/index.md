@@ -35,6 +35,26 @@ guestLectures:
           year: '2020'
       topic: 'Terrorism, ideology, communication and counteractions (Italian)'
     - lectures:
+        - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          title: >-
+            A new "Arab Spring"? Protests, transitions and power restorations
+            from North Africa to the Middle East
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          title: >-
+            Political Islam in the Middle East and North Africa:
+            institutionalisation and repression
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          title: 'Egypt between square protests, elections and the military'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: >-
+        Democracy and regime changes in Arab, African and Asian countries
+        (Italian)
+    - lectures:
         - course: Politics and energy in the enlarged Mediterranean region
           title: >-
             The energy dependence relationship between the two shores of the
@@ -60,26 +80,6 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
       topic: Terrorism in its many forms (Italian)
-    - lectures:
-        - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          title: >-
-            A new "Arab Spring"? Protests, transitions and power restorations
-            from North Africa to the Middle East
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-        - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          title: >-
-            Political Islam in the Middle East and North Africa:
-            institutionalisation and repression
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-        - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          title: 'Egypt between square protests, elections and the military'
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-      topic: >-
-        Democracy and regime changes in Arab, African and Asian countries
-        (Italian)
     - topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
