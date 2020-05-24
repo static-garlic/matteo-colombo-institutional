@@ -24,6 +24,10 @@ modules:
 guestLectures:
   teachingType: 'Course Instructor '
   teachings:
+    - topic: 'Terrorism, ideology, communication and counteractions'
+    - topic: Politics and energy in the enlarged Mediterranean region
+    - topic: Terrorism in its many forms
+    - topic: 'Design your research: Skills and methodologies in IR'
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           title: >-
