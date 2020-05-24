@@ -14,7 +14,7 @@ modules:
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Terrorism - Terrorism, ideology, communication and counteractions'
+      topic: 'Terrorism, ideology, communication and counteractions'
     - lectures:
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
