@@ -22,7 +22,7 @@ modules:
           title: Discussing and structuring your research projects and dissertations
           university: University of Milan
           year: '2019'
-      topic: Methodology
+      topic: 'Methodology - Design your research: Skills and methodologies in IR'
 guestLectures:
   teachingType: Guest Lectures
   teachings:
