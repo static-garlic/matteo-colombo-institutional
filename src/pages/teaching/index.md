@@ -54,6 +54,7 @@ modules:
           title: 'Working in IOs, NGOs and think tanks'
           university: University of Milan
           year: '2019'
+        - title: www.twitter.com
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
