@@ -54,6 +54,10 @@ modules:
           title: 'Working in IOs, NGOs and think tanks'
           university: University of Milan
           year: '2019'
+        - course: 'Design your research: Skills and methodologies in IR'
+          title: 'Discussing and structuring your research projects and dissertations '
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2019'
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
@@ -99,39 +103,24 @@ guestLectures:
           year: '2020'
       topic: Politics of the Middle East
     - lectures:
-        - course: Winter and Summer School
+        - course: ISIS and the other forms of Terrorism
           linkSection:
             links:
               - link: ''
                 text: ''
             linksText: ''
-          title: >-
-            La comunicazione dello Stato Islamico, L'ISIS e le nuove forme del
-            jihadismo
+          title: The terrorist threat in the Near East. The Egyptian case
           university: Italian Institute for International Political Studies (ISPI)
-          year: 2018-2019
-        - course: >-
-            Guest lecture delivered as part of the module Anthropology of
-            Communication
+          year: 2019 (Feb and June)
+        - course: ISIS and the other forms of Terrorism
           linkSection:
             links:
               - link: ''
                 text: ''
             linksText: ''
-          title: The communication strategy of IS
-          university: Politecnico di Milano (University of Milan)
-          year: '2017'
-        - course: Organizzazioni internazionali
-          linkSection:
-            links:
-              - link: ''
-                text: ''
-            linksText: ''
-          title: La strategia di comunicazione di IS
-          university: >-
-            University of Pavia - Italian Institute for International Political
-            Studies (ISPI)
-          year: 2015-2016
-      topic: Jihadism
+          title: IS communication strategy
+          university: Italian Institute for International Political Studies (ISPI)
+          year: 2019 (Feb and June)
+      topic: ISIS and the other forms of Terrorism
 ---
 
