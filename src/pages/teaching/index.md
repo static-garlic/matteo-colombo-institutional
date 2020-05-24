@@ -50,8 +50,7 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
       topic: Politics and energy in the enlarged Mediterranean region (Italian)
-    - topic: Terrorism in its many forms
-    - topic: 'Design your research: Skills and methodologies in IR'
+    - topic: Terrorism in its many forms (Italian)
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           title: >-
@@ -69,7 +68,10 @@ guestLectures:
           title: 'Egypt between square protests, elections and the military'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Democracy and regime changes in Arab, African and Asian countries'
+      topic: >-
+        Democracy and regime changes in Arab, African and Asian countries
+        (Italian)
+    - topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
           linkSection:
@@ -89,7 +91,7 @@ guestLectures:
           title: 'Syria: The catalyser of Middle Eastern politics'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: Politics of the Middle East
+      topic: Politics of the Middle East (Italian)
     - lectures:
         - course: ISIS and the other forms of Terrorism
           linkSection:
@@ -109,30 +111,30 @@ guestLectures:
           title: IS communication strategy
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
-      topic: ISIS and the other forms of Terrorism
+      topic: ISIS and the other forms of Terrorism (Italian)
     - lectures:
         - course: Anthropology of communication
           title: IS communication strategy
           university: Polytechnic University of Milan
           year: '2017'
-      topic: Anthropology of communication
+      topic: Anthropology of communication (English)
     - lectures:
         - course: Master in communication for international relations
           title: Libya and the wider Mediterranean region
           university: Palermo University – IMESI
           year: '2016'
-      topic: Communication for international relations
+      topic: Communication for international relations (Italian)
     - lectures:
         - course: Master in international relations
           title: IS communication strategy
           university: Pavia University
           year: '2016'
-      topic: International relations
+      topic: International relations (Italian)
     - lectures:
         - course: Master in communication for international relations
           title: IS communication strategy
           university: IULM University
           year: '2015'
-      topic: Communication for international relations
+      topic: Communication for international relations (Italian)
 ---
 
