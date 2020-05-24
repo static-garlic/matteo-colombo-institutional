@@ -32,6 +32,10 @@ modules:
           year: '2020'
       topic: Politics and energy in the enlarged Mediterranean region
     - lectures:
+        - course: ''
+          title: With Matteo Casiraghi and Valerio Vignoli
+          university: ''
+          year: ''
         - course: 'Design your research: skills and methodologies in IR'
           title: Automated content and social media analysis
           university: University of Milan
@@ -44,10 +48,7 @@ modules:
           title: 'Working in IOs, NGOs and think tanks'
           university: University of Milan
           year: '2019'
-        - course: 'Design your research: skills and methodologies in IR'
-          title: Discussing and structuring your research projects and dissertations
-          university: University of Milan
-          year: '2019'
+        - {}
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
