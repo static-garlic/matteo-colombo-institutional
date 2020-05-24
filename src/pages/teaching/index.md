@@ -35,23 +35,6 @@ guestLectures:
           year: '2020'
       topic: 'Terrorism, ideology, communication and counteractions (Italian)'
     - lectures:
-        - course: Politics and energy in the enlarged Mediterranean region
-          title: >-
-            The energy dependence relationship between the two shores of the
-            Mediterranean
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-        - course: Politics and energy in the enlarged Mediterranean region
-          title: The gas quest in the Eastern Mediterranean
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-        - course: Politics and energy in the enlarged Mediterranean region
-          title: Geopolitics of oil and gas pipelines
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
-      topic: Politics and energy in the enlarged Mediterranean region (Italian)
-    - topic: Terrorism in its many forms (Italian)
-    - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           title: >-
             A new "Arab Spring"? Protests, transitions and power restorations
@@ -71,6 +54,32 @@ guestLectures:
       topic: >-
         Democracy and regime changes in Arab, African and Asian countries
         (Italian)
+    - lectures:
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: >-
+            The energy dependence relationship between the two shores of the
+            Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: The gas quest in the Eastern Mediterranean
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Politics and energy in the enlarged Mediterranean region
+          title: Geopolitics of oil and gas pipelines
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Politics and energy in the enlarged Mediterranean region (Italian)
+    - lectures:
+        - course: Terrorism in its many forms
+          title: What is terrorism? Definition and general overview
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Terrorism in its many forms
+          title: Jihadism from al-Qa'ida to the Islamic State
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Terrorism in its many forms (Italian)
     - topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
