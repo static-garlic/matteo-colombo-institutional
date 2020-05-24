@@ -54,6 +54,10 @@ modules:
           title: 'Working in IOs, NGOs and think tanks'
           university: University of Milan
           year: '2019'
+        - course: 'Design your research: Skills and methodologies in IR'
+          title: 'Discussing and structuring your research projects and dissertations '
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2019'
       topic: >-
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
@@ -132,6 +136,6 @@ guestLectures:
             University of Pavia - Italian Institute for International Political
             Studies (ISPI)
           year: 2015-2016
-      topic: Jihadism
+      topic: ISIS and the other forms of Terrorism
 ---
 
