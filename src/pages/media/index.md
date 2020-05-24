@@ -35,6 +35,12 @@ press:
           publishedOn: Il Foglio
           title: Inevitabili Canaglie
           year: '2016'
+        - author: Maged Srour
+          link: >-
+            https://it.insideover.com/politica/nove-anni-dopo-cosa-e-cambiato-in-egitto-dalla-rivoluzione-del-2011.html?fbclid=IwAR2ZcFC8fretyV0MsqY21u02Do_mWZ841rzrSKbemW4DtqX2xDUc2qmOxMs
+          publishedOn: Inside Over
+          title: Nove anni dopo. Cosa è cambiato in Egitto dalla rivoluzione del 2011
+          year: '2020'
     - language: English
       mediaList:
         - author: Maged Srour
