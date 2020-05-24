@@ -3,7 +3,7 @@ templateKey: teaching-page
 path: /teaching
 title: Teaching
 modules:
-  teachingType: Course Coordinator (Italian and English)
+  teachingType: Course Coordinator
   teachings:
     - lectures: []
       topic: >-
