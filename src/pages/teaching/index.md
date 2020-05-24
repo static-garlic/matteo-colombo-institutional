@@ -50,7 +50,16 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
       topic: Politics and energy in the enlarged Mediterranean region (Italian)
-    - topic: Terrorism in its many forms (Italian)
+    - lectures:
+        - course: Terrorism in its many forms
+          title: What is terrorism? Definition and general overview
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+        - course: Terrorism in its many forms
+          title: Jihadism from al-Qa'ida to the Islamic State
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: Terrorism in its many forms (Italian)
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           title: >-
