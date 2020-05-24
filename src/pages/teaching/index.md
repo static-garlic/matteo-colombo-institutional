@@ -3,7 +3,7 @@ templateKey: teaching-page
 path: /teaching
 title: Teaching
 modules:
-  teachingType: Course Coordinator
+  teachingType: Course Coordinator (Italian and English)
   teachings:
     - lectures:
         - course: 'Terrorism - Terrorism, ideology, communication and counteractions'
@@ -62,7 +62,7 @@ modules:
         Design your research: Skills and methodologies in IR (with Valerio
         Vignoli and Matteo Casiraghi)
 guestLectures:
-  teachingType: Guest Lectures
+  teachingType: Guest Lectures  (Italian and English)
   teachings:
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
@@ -122,5 +122,11 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
       topic: ISIS and the other forms of Terrorism
+    - lectures:
+        - course: Anthropology of communication
+          title: IS communication strategy
+          university: Polytechnic University of Milan
+          year: '2017'
+      topic: Anthropology of communication
 ---
 
