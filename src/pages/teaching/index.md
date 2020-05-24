@@ -33,8 +33,8 @@ modules:
           university: University of Milan
           year: '2019'
       topic: >-
-        Methodology - Design your research: Skills and methodologies in IR (with
-        Valerio Vignoli and Matteo Casiraghi)
+        Design your research: Skills and methodologies in IR (with Valerio
+        Vignoli and Matteo Casiraghi)
 guestLectures:
   teachingType: Guest Lectures
   teachings:
