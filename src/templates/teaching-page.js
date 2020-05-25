@@ -19,7 +19,7 @@ export const TeachingPageTemplate = ({title, courseCoordinator, instructor}) => 
             <CourseCoordinator courseCoordinator={courseCoordinator} />
           </Col>
         </Row>
-        <Row>
+        <Row className="pt-4">
           <Col>
             <Instructor instructor={instructor} />
           </Col>
