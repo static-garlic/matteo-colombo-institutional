@@ -5,9 +5,10 @@ import Layout from '../components/Layout'
 import {HTMLContent} from '../components/Content'
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Col, Container, Row} from "reactstrap";
-import {Teachings} from "../components/Teachings";
+import {Instructor} from "../components/Instructor";
+import {CourseCoordinator} from "../components/CourseCoordinator";
 
-export const TeachingPageTemplate = ({title, modules, guestLectures}) => {
+export const TeachingPageTemplate = ({title, courseCoordinator, instructor}) => {
 
   return (
     <Fragment>
@@ -15,12 +16,12 @@ export const TeachingPageTemplate = ({title, modules, guestLectures}) => {
       <Container>
         <Row>
           <Col>
-            <Teachings teachings={modules} />
+            <CourseCoordinator courseCoordinator={courseCoordinator} />
           </Col>
         </Row>
         <Row>
           <Col>
-            <Teachings teachings={guestLectures} />
+            <Instructor instructor={instructor} />
           </Col>
         </Row>
       </Container>
@@ -30,28 +31,19 @@ export const TeachingPageTemplate = ({title, modules, guestLectures}) => {
 
 TeachingPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  modules: PropTypes.shape({
-      teachingType: PropTypes.string,
-      teachings: PropTypes.arrayOf(
+  courseCoordinator: PropTypes.shape({
+      role: PropTypes.string,
+      courses: PropTypes.arrayOf(
         PropTypes.shape(
           {
-            topic: PropTypes.string,
-            lectures: PropTypes.arrayOf(
-              PropTypes.shape({
-                  title: PropTypes.string,
-                  course: PropTypes.string,
-                  university: PropTypes.string,
-                  year: PropTypes.string
-                }
-              )
-            )
+            topic: PropTypes.string
           }
         )
       )
     }
   ),
-  guestLectures: PropTypes.shape({
-      teachingType: PropTypes.string,
+  instructor: PropTypes.shape({
+      role: PropTypes.string,
       teachings: PropTypes.arrayOf(
         PropTypes.shape(
           {
@@ -93,8 +85,8 @@ const TeachingPage = ({data}) => {
       <TeachingPageTemplate
         contentComponent={HTMLContent}
         title={teachings.frontmatter.title}
-        modules={teachings.frontmatter.modules}
-        guestLectures={teachings.frontmatter.guestLectures}
+        courseCoordinator={teachings.frontmatter.courseCoordinator}
+        instructor={teachings.frontmatter.instructor}
       />
     </Layout>
   )
@@ -111,20 +103,14 @@ export const teachingPage = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        modules {
-          teachingType
-          teachings {
+        courseCoordinator {
+          role
+          courses {
             topic
-            lectures {
-              title
-              course
-              university
-              year
-            }
           }
         }
-        guestLectures {
-          teachingType
+        instructor {
+          role
           teachings {
             topic
             lectures {

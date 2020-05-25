@@ -2,27 +2,15 @@
 templateKey: teaching-page
 path: /teaching
 title: Teaching
-modules:
-  teachingType: Course Coordinator
-  teachings:
-    - lectures: []
-      topic: >-
-        Terrorism, ideology, communication and counteractions, Italian Institute
-        for International Political Studies (ISPI), 2020 (Italian)
-    - lectures: []
-      topic: >-
-        Politics and energy in the enlarged Mediterranean region, Italian
-        Institute for International Political Studies (ISPI), 2020 (Italian)
-    - lectures: []
-      topic: >-
-        Terrorism in its many forms, Italian Institute for International
-        Political Studies (ISPI), 2020 (Italian)
-    - lectures: []
-      topic: >-
-        Design your research: Skills and methodologies in IR (with Valerio
-        Vignoli and Matteo Casiraghi), University of Milan, 2020 (English)
-guestLectures:
-  teachingType: 'Course Instructor '
+courseCoordinator:
+  role: 'Course Coordinator'
+  courses:
+      - topic: 'Terrorism, ideology, communication and counteractions, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
+      - topic: Politics and energy in the enlarged Mediterranean region, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
+      - topic: 'Terrorism in its many forms, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
+      - topic: 'Design your research: Skills and methodologies in IR (with Valerio Vignoli and Matteo Casiraghi), University of Milan, 2020 (English)'
+instructor:
+  role: 'Course Instructor'
   teachings:
     - lectures:
         - course: 'Terrorism, ideology, communication and counteractions'
@@ -80,7 +68,17 @@ guestLectures:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
       topic: Terrorism in its many forms (Italian)
-    - topic: 'Design your research: Skills and methodologies in IR (English)'
+    - lectures:
+        - course: Politics of the Middle East
+          linkSection:
+            links:
+              - link: ''
+                text: ''
+            linksText: ''
+          title: 'Iraq: Researching an impossible stability'
+          university: Italian Institute for International Political Studies (ISPI)
+          year: '2020'
+      topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
           linkSection:

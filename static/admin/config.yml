@@ -393,69 +393,37 @@ collections:
           - {label: Path, name: path, widget: "hidden", default: "/teaching"}
           - {label: "Title", name: "title", widget: "string"}
           - {
-            label: "Modules",
-            name: "modules",
+            label: "Course Coordinator",
+            name: "courseCoordinator",
             widget: object,
             fields: [
             {
-              label: "Teaching Type",
-              name: teachingType,
+              label: "Role",
+              name: role,
               widget: string
             },
             {
-              label: "Teachings",
-              name: "teachings",
+              label: "Courses",
+              name: "courses",
               widget: list,
               fields: [
               {
                 label: "Topic",
                 name: topic,
                 widget: string
-              },
-              {
-                label: "Lectures",
-                name: lectures,
-                widget: list,
-                fields:
-                  [
-                  {
-                    label: "Title",
-                    name: title,
-                    widget: string,
-                    required: false
-                  },
-                  {
-                    label: "Course",
-                    name: course,
-                    widget: string,
-                    required: false
-                  },
-                  {
-                    label: "University",
-                    name: university,
-                    widget: string,
-                    required: false
-                  },
-                  {
-                    label: "Year",
-                    name: year,
-                    widget: string,
-                    required: false
-                  }
-                  ]
               }
               ]
             }
             ]
           }
           - {
-            label: "Guest Lectures",
-            name: "guestLectures",
+            label: "Instructor",
+            name: "instructor",
             widget: object,
             fields: [
             {
-              label: "Teaching Type",
-              name: teachingType,
+              label: "Role",
+              name: role,
               widget: string
             },
             {
