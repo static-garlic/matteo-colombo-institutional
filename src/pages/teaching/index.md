@@ -86,6 +86,12 @@ instructor:
           title: Automated content and social media analysis
           university: University of Milan
           year: '2019'
+        - course: 'Design your research: Skills and methodologies in IR (English)'
+          title: Discussing and structuring your research projects and dissertations
+          university: University of Milan
+          year: '2019'
+        - {}
+        - {}
       topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
