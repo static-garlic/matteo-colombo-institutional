@@ -9,7 +9,7 @@ courseCoordinator:
         for International Political Studies (ISPI), 2020 (Italian)
     - topic: >-
         Politics and energy in the enlarged Mediterranean region, Italian
-        Institute for International Political Studies (ISPI), 2020 (Italian)'
+        Institute for International Political Studies (ISPI), 2020 (Italian)
     - topic: >-
         Terrorism in its many forms, Italian Institute for International
         Political Studies (ISPI), 2020 (Italian)
@@ -77,15 +77,15 @@ instructor:
           year: '2020'
       topic: Terrorism in its many forms (Italian)
     - lectures:
-        - course: Politics of the Middle East
+        - course: 'Design your research: Skills and methodologies in IR (English)'
           linkSection:
             links:
               - link: ''
                 text: ''
             linksText: ''
-          title: 'Iraq: Researching an impossible stability'
-          university: Italian Institute for International Political Studies (ISPI)
-          year: '2020'
+          title: Automated content and social media analysis
+          university: University of Milan
+          year: '2019'
       topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
