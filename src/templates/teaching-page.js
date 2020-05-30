@@ -54,19 +54,7 @@ TeachingPageTemplate.propTypes = {
                   course: PropTypes.string,
                   university: PropTypes.string,
                   year: PropTypes.string,
-                  linkSection: PropTypes.shape(
-                    {
-                      linksText: PropTypes.string,
-                      links: PropTypes.arrayOf(
-                        PropTypes.shape(
-                          {
-                            text: PropTypes.string,
-                            link: PropTypes.string
-                          }
-                        )
-                      )
-                    }
-                  )
+                  studentsEvaluationsFile: PropTypes.object
                 }
               )
             )
@@ -118,13 +106,7 @@ export const teachingPage = graphql`
               course
               university
               year
-              linkSection {
-                linksText
-                links {
-                  text
-                  link
-                }
-              }
+              studentsEvaluationsFile
             }
           }
         }
