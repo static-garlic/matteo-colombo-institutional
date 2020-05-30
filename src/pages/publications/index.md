@@ -72,7 +72,7 @@ chapterEBooks:
             and anti-IS discourse on Arabic-speaking Twitter
           year: 2019
       language: English
-  title: Chapter in E-books
+  title: Chapter in books
 newspaperArticles:
   articlesPerLanguage:
     - articles:
