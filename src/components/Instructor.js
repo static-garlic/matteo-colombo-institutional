@@ -15,7 +15,7 @@ export const Instructor = ({instructor}) =>
               {
                 lecture.studentsEvaluationsFile ? (
                   <p>{`Download students evaluations `}
-                    <a  target="_blank" rel="noopener noreferrer" href={`${lecture.studentsEvaluationsFile.relativePath}`}>here</a>
+                    <a  target="_blank" rel="noopener noreferrer" href={`${lecture.studentsEvaluationsFile}`}>here</a>
                   </p>
                 ) : null
               }
