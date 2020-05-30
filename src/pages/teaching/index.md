@@ -138,4 +138,3 @@ instructor:
           studentsEvaluationsFile: /img/curriculumvitae-matteo-colombo-.pdf
       topic: Communication for international relations (Italian)
 ---
-
