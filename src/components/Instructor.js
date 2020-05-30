@@ -15,10 +15,9 @@ export const Instructor = ({instructor}) =>
               {
                 lecture.studentsEvaluationsFile ? (
                   <p>{`Download students evaluations `}
-                    <a  target="_blank" rel="noopener noreferrer" href={`${lecture.studentsEvaluationsFile.substring(lecture.studentsEvaluationsFile.indexOf("/static") + 1)}`}>here
-                      {lecture.studentsEvaluationsFile.indexOf("/static") + 1}
+                    <a  target="_blank" rel="noopener noreferrer" href={`${lecture.studentsEvaluationsFile.replace("/static", '')}`}>here
                       {lecture.studentsEvaluationsFile}
-                      {lecture.studentsEvaluationsFile.substring(lecture.studentsEvaluationsFile.indexOf("/static") + 1)}</a>
+                      {lecture.studentsEvaluationsFile.replace("/static", '')}</a>
                   </p>
                 ) : null
               }
