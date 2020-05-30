@@ -19,10 +19,10 @@ export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles
               <PeerArticles peerArticles={peerArticles} />
             }
             {
-              <StandardPublications publications={thinkTankArticles} />
+              <StandardPublications publications={chapterEBooks} />
             }
             {
-              <StandardPublications publications={chapterEBooks} />
+              <StandardPublications publications={thinkTankArticles} />
             }
             {
               <StandardPublications publications={newspaperArticles} />

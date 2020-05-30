@@ -13,14 +13,10 @@ export const Instructor = ({instructor}) =>
               <span>{lecture.title}, </span>
               <span className="font-italic">{lecture.course}, {lecture.university}, {lecture.year} </span>
               {
-                lecture.linkSection && lecture.linkSection.linksText ? (
-                  <Fragment>
-                    <span>({lecture.linkSection.linksText}</span>
-                    {
-                      lecture.linkSection.links.map(link => <a href={link.link} target="_blank" rel="noopener noreferrer"> {link.text}</a>)
-                    }
-                    <span>)</span>
-                  </Fragment>
+                lecture.studentsEvaluationsFile ? (
+                  <p>{`Download students evaluations `}
+                    <a  target="_blank" rel="noopener noreferrer" href={`${lecture.studentsEvaluationsFile}`}>here</a>
+                  </p>
                 ) : null
               }
             </p>
@@ -45,20 +41,8 @@ Instructor.propTypes = {
                 course: PropTypes.string,
                 university: PropTypes.string,
                 year: PropTypes.string,
-                linkSection: PropTypes.shape(
-                  {
-                    linksText: PropTypes.string,
-                    links: PropTypes.arrayOf(
-                      PropTypes.shape(
-                        {
-                          text: PropTypes.string,
-                          link: PropTypes.string
-                        }
-                      )
-                    )
-                  }
-                )
-              }
+                studentsEvaluationsFile: PropTypes.object
+            }
             )
           )
         }
