@@ -102,7 +102,7 @@ instructor:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: Politics of the Middle East
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-syria-.xlsx
           title: 'Syria: The catalyser of Middle Eastern politics'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
