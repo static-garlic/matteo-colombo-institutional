@@ -3,138 +3,147 @@ templateKey: teaching-page
 path: /teaching
 title: Teaching
 courseCoordinator:
-  role: 'Course Coordinator'
   courses:
-      - topic: 'Terrorism, ideology, communication and counteractions, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
-      - topic: Politics and energy in the enlarged Mediterranean region, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
-      - topic: 'Terrorism in its many forms, Italian Institute for International Political Studies (ISPI), 2020 (Italian)'
-      - topic: 'Design your research: Skills and methodologies in IR (with Valerio Vignoli and Matteo Casiraghi), University of Milan, 2020 (English)'
+    - topic: >-
+        Terrorism, ideology, communication and counteractions, Italian Institute
+        for International Political Studies (ISPI), 2020 (Italian)
+    - topic: >-
+        Politics and energy in the enlarged Mediterranean region, Italian
+        Institute for International Political Studies (ISPI), 2020 (Italian)'
+    - topic: >-
+        Terrorism in its many forms, Italian Institute for International
+        Political Studies (ISPI), 2020 (Italian)
+    - topic: >-
+        Design your research: Skills and methodologies in IR (with Valerio
+        Vignoli and Matteo Casiraghi), University of Milan, 2020 (English)
+  role: Course Coordinator
 instructor:
-  role: 'Course Instructor'
+  role: Course Instructor
   teachings:
     - lectures:
         - course: 'Terrorism, ideology, communication and counteractions'
+          studentsEvaluationsFile: ''
           title: 'Terrorism, history and contact points'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: 'Terrorism, ideology, communication and counteractions'
+          studentsEvaluationsFile: ''
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: 'Terrorism, ideology, communication and counteractions (Italian)'
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          studentsEvaluationsFile: ''
           title: >-
             A new "Arab Spring"? Protests, transitions and power restorations
             from North Africa to the Middle East
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          studentsEvaluationsFile: ''
           title: >-
             Political Islam in the Middle East and North Africa:
             institutionalisation and repression
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
+          studentsEvaluationsFile: ''
           title: 'Egypt between square protests, elections and the military'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: >-
         Democracy and regime changes in Arab, African and Asian countries
         (Italian)
     - lectures:
         - course: Politics and energy in the enlarged Mediterranean region
+          studentsEvaluationsFile: ''
           title: >-
             The energy dependence relationship between the two shores of the
             Mediterranean
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: Politics and energy in the enlarged Mediterranean region
+          studentsEvaluationsFile: ''
           title: The gas quest in the Eastern Mediterranean
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: Politics and energy in the enlarged Mediterranean region
+          studentsEvaluationsFile: ''
           title: Geopolitics of oil and gas pipelines
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: Politics and energy in the enlarged Mediterranean region (Italian)
     - lectures:
         - course: Terrorism in its many forms
+          studentsEvaluationsFile: ''
           title: What is terrorism? Definition and general overview
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: Terrorism in its many forms
+          studentsEvaluationsFile: ''
           title: Jihadism from al-Qa'ida to the Islamic State
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: Terrorism in its many forms (Italian)
     - lectures:
         - course: Politics of the Middle East
+          studentsEvaluationsFile: ''
           title: 'Iraq: Researching an impossible stability'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
+          studentsEvaluationsFile: ''
           title: 'Iraq: Researching an impossible stability'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
         - course: Politics of the Middle East
+          studentsEvaluationsFile: ''
           title: 'Syria: The catalyser of Middle Eastern politics'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-          studentsEvaluationsFile: ''
       topic: Politics of the Middle East (Italian)
     - lectures:
         - course: ISIS and the other forms of Terrorism
+          studentsEvaluationsFile: ''
           title: The terrorist threat in the Near East. The Egyptian case
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
-          studentsEvaluationsFile: ''
         - course: ISIS and the other forms of Terrorism
+          studentsEvaluationsFile: ''
           title: IS communication strategy
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
-          studentsEvaluationsFile: ''
       topic: ISIS and the other forms of Terrorism (Italian)
     - lectures:
         - course: Anthropology of communication
+          studentsEvaluationsFile: ''
           title: IS communication strategy
           university: Polytechnic University of Milan
           year: '2017'
-          studentsEvaluationsFile: ''
       topic: Anthropology of communication (English)
     - lectures:
         - course: Master in communication for international relations
+          studentsEvaluationsFile: ''
           title: Libya and the wider Mediterranean region
           university: Palermo University – IMESI
           year: '2016'
-          studentsEvaluationsFile: ''
       topic: Communication for international relations (Italian)
     - lectures:
         - course: Master in international relations
+          studentsEvaluationsFile: /img/book1.xlsx
           title: IS communication strategy
           university: Pavia University
           year: '2016'
-          studentsEvaluationsFile: ''
       topic: International relations (Italian)
     - lectures:
         - course: Master in communication for international relations
+          studentsEvaluationsFile: ''
           title: IS communication strategy
           university: IULM University
           year: '2015'
-          studentsEvaluationsFile: /img/curriculumvitae-matteo-colombo-.pdf
       topic: Communication for international relations (Italian)
 ---
+
