@@ -59,19 +59,19 @@ instructor:
         (Italian)
     - lectures:
         - course: Politics and energy in the enlarged Mediterranean region
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-energy-dependence-.xlsx
           title: >-
             The energy dependence relationship between the two shores of the
             Mediterranean
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: Politics and energy in the enlarged Mediterranean region
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-eastern-mediterranean-.xlsx
           title: The gas quest in the Eastern Mediterranean
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: Politics and energy in the enlarged Mediterranean region
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-pipeline-.xlsx
           title: Geopolitics of oil and gas pipelines
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
