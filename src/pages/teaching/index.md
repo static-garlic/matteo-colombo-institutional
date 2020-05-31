@@ -114,7 +114,7 @@ instructor:
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
         - course: ISIS and the other forms of Terrorism
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluation-communicationis-.xlsx
           title: IS communication strategy
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
