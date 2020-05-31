@@ -36,7 +36,7 @@ instructor:
         Italian)
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-a-new-arab-spring-.xlsx
           title: >-
             A new "Arab Spring"? Protests, transitions and power restorations
             from North Africa to the Middle East
