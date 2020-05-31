@@ -50,7 +50,7 @@ instructor:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-military-egypt-.xlsx
           title: 'Egypt between square protests, elections and the military'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
