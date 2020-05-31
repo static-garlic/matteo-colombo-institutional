@@ -31,7 +31,9 @@ instructor:
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Terrorism, ideology, communication and counteractions (Italian)'
+      topic: >-
+        Terrorism, ideology, communication and counteractions (Forthcoming -
+        Italian)
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           studentsEvaluationsFile: ''
