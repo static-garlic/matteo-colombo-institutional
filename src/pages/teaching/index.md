@@ -43,7 +43,7 @@ instructor:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-political-islam-.xlsx
           title: >-
             Political Islam in the Middle East and North Africa:
             institutionalisation and repression
