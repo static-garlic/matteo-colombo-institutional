@@ -78,12 +78,12 @@ instructor:
       topic: Politics and energy in the enlarged Mediterranean region (Italian)
     - lectures:
         - course: Terrorism in its many forms
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-terrorism-.xlsx
           title: What is terrorism? Definition and general overview
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: Terrorism in its many forms
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-jihadism-.xlsx
           title: Jihadism from al-Qa'ida to the Islamic State
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
@@ -135,7 +135,7 @@ instructor:
       topic: Communication for international relations (Italian)
     - lectures:
         - course: Master in international relations
-          studentsEvaluationsFile: /img/book1.xlsx
+          studentsEvaluationsFile: ''
           title: IS communication strategy
           university: Pavia University
           year: '2016'
