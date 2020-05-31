@@ -59,7 +59,7 @@ instructor:
         (Italian)
     - lectures:
         - course: Politics and energy in the enlarged Mediterranean region
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-energy-dependence-.xlsx
           title: >-
             The energy dependence relationship between the two shores of the
             Mediterranean
