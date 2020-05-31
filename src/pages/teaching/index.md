@@ -109,7 +109,7 @@ instructor:
       topic: Politics of the Middle East (Italian)
     - lectures:
         - course: ISIS and the other forms of Terrorism
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluation-terrorismegypt-.xlsx
           title: The terrorist threat in the Near East. The Egyptian case
           university: Italian Institute for International Political Studies (ISPI)
           year: 2019 (Feb and June)
