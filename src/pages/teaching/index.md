@@ -97,12 +97,12 @@ instructor:
       topic: 'Design your research: Skills and methodologies in IR (English)'
     - lectures:
         - course: Politics of the Middle East
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-iraq-.xlsx
           title: 'Iraq: Researching an impossible stability'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: Politics of the Middle East
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluations-syria-.xlsx
           title: 'Syria: The catalyser of Middle Eastern politics'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
