@@ -86,6 +86,12 @@ thinkTankArticles:
             Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
             egiziano
           year: 2019
+        - author: Matteo Colombo and Eugenio Dacrema
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-la-strana-convergenza-tra-ankara-e-assad-19481
+          publishedOn: ISPI commentary
+          title: 'Siria: La strana convergenza tra Ankara e Assad'
+          year: 2018
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
