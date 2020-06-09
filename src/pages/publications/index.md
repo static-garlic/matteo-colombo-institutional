@@ -112,6 +112,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Accordi Egitto-Francia: una vittoria per l’Arabia Saudita'
           year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/egitto-che-fine-ha-fatto-la-rivoluzione-17437
+          publishedOn: ISPI commentary
+          title: 'Egitto: che fine ha fatto la rivoluzione?'
+          year: 2016
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
