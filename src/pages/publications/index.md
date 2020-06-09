@@ -106,6 +106,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Turchia: Errori e conseguenze di un golpe mancato'
           year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/accordi-egitto-francia-una-vittoria-larabia-saudita-15018
+          publishedOn: ISPI commentary
+          title: 'Accordi Egitto-Francia: una vittoria per l’Arabia Saudita'
+          year: 2016
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
