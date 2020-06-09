@@ -86,6 +86,32 @@ thinkTankArticles:
             Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
             egiziano
           year: 2019
+        - author: Matteo Colombo and Eugenio Dacrema
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-la-strana-convergenza-tra-ankara-e-assad-19481
+          publishedOn: ISPI commentary
+          title: 'Siria: La strana convergenza tra Ankara e Assad'
+          year: 2018
+        - author: 'Matteo Colombo '
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/un-anno-dopo-regeni-come-cambia-la-politica-estera-italiana-nel-mediterraneo-16261
+          publishedOn: ISPI commentary
+          title: >-
+            Un anno dopo Regeni. Come cambia la política estera italiana nel
+            Mediterraneo
+          year: 2017
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/un-anno-dopo-regeni-come-cambia-la-politica-estera-italiana-nel-mediterraneo-16261
+          publishedOn: ISPI commentary
+          title: 'Turchia: Errori e conseguenze di un golpe mancato'
+          year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/accordi-egitto-francia-una-vittoria-larabia-saudita-15018
+          publishedOn: ISPI commentary
+          title: 'Accordi Egitto-Francia: una vittoria per l’Arabia Saudita'
+          year: 2016
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
