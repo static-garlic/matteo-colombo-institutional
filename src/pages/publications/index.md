@@ -155,6 +155,12 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: 'IS, Giordania e la logica della violenza'
           year: 2015
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/italia-egitto-rischi-e-opportunita-di-una-relazione-strategica-11677
+          publishedOn: ISPI commentary
+          title: Italia-Egitto. Rischi e opportunità di una relazione strategica
+          year: 2014
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
