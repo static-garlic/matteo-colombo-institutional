@@ -14,30 +14,6 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
-        - author: Matteo Colombo and Giuseppe Dentice
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
-          publishedOn: Approfondimento Mediterraneo Allargato
-          title: >-
-            L’accordo Turchia-Gna sui confini marittimi e i riflessi nelle
-            dinamiche trasversali del Mediterraneo Orientale
-          year: 2020
-        - author: Matteo Colombo
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
-          publishedOn: ISPI Commentary
-          title: Cosa vuole ottenere la Turchia dall’intervento in Siria
-          year: 2019
-        - author: Matteo Colombo
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
-          publishedOn: ISPI Commentary
-          title: >-
-            Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
-            egiziano
-          year: 2019
-      language: Italian
-    - articles:
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/libya-fighting-escalates-stalemate-looms-26437
@@ -63,6 +39,54 @@ thinkTankArticles:
           title: 'Turkey and the EU: a new path toward a shared security policy'
           year: 2016
       language: English
+    - articles:
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/il-matrimonio-dinteresse-tra-turchia-e-libia-25596
+          publishedOn: ISPI commentary
+          title: Il matrimonio d’interesse tra Turchia e Libia
+          year: 2020
+        - author: Matteo Colombo and Giuseppe Dentice
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
+          publishedOn: Approfondimento Mediterraneo Allargato
+          title: >-
+            L’accordo Turchia-Gna sui confini marittimi e i riflessi nelle
+            dinamiche trasversali del Mediterraneo Orientale
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-le-conseguenze-delluccisione-dei-soldati-turchi-24998
+          publishedOn: ISPI Commentary
+          title: 'Siria: le conseguenze dell’uccisione dei soldati turchi'
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
+          publishedOn: ISPI Commentary
+          title: Cosa vuole ottenere la Turchia dall’intervento in Siria
+          year: 2019
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
+          publishedOn: ISPI Commentary
+          title: >-
+            Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
+            egiziano
+          year: 2019
+        - author: Matteo Colombo and Eugenio Dacrema
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/il-futuro-della-libia-passa-da-berlino-24867
+          publishedOn: ISPI Focus
+          title: Il futuro della Libia passa da Berlino
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/libia-cosa-puo-ancora-fare-litalia-24810
+          publishedOn: ISPI Commentary
+          title: 'Libia, cosa può (ancora) fare l’Italia'
+          year: 2020
+      language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
 chapterEBooks:
