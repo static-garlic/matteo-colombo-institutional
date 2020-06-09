@@ -38,6 +38,12 @@ thinkTankArticles:
           year: 2019
       language: Italian
     - articles:
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/libya-fighting-escalates-stalemate-looms-26437
+          publishedOn: ISPI Commentary
+          title: ' Libya: As Fighting Escalates, Stalemate Looms'
+          year: 2023
         - author: Matteo Colombo and Sevgi Seçen
           link: >-
             https://www.ispionline.it/it/pubblicazione/turkey-tweets-comparing-candidates-communication-strategies-20836
