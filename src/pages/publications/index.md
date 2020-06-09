@@ -92,6 +92,14 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Siria: La strana convergenza tra Ankara e Assad'
           year: 2018
+        - author: 'Matteo Colombo '
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/un-anno-dopo-regeni-come-cambia-la-politica-estera-italiana-nel-mediterraneo-16261
+          publishedOn: ISPI commentary
+          title: >-
+            Un anno dopo Regeni. Come cambia la política estera italiana nel
+            Mediterraneo
+          year: 2017
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
