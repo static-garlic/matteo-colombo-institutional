@@ -19,7 +19,7 @@ thinkTankArticles:
             https://www.ispionline.it/it/pubblicazione/libya-fighting-escalates-stalemate-looms-26437
           publishedOn: ISPI Commentary
           title: ' Libya: As Fighting Escalates, Stalemate Looms'
-          year: 2023
+          year: 2020
         - author: Matteo Colombo and Sevgi Seçen
           link: >-
             https://www.ispionline.it/it/pubblicazione/turkey-tweets-comparing-candidates-communication-strategies-20836
@@ -86,6 +86,14 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: 'Libia, cosa può (ancora) fare l’Italia'
           year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
+          publishedOn: ISPI Commentary
+          title: >-
+            Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
+            egiziano
+          year: 2019
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
