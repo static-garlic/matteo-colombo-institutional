@@ -161,6 +161,18 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: Italia-Egitto. Rischi e opportunità di una relazione strategica
           year: 2014
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/chi-sono-veramente-i-salafiti-7746
+          publishedOn: ISPI commentary
+          title: Chi sono veramente i salafiti?
+          year: 2013
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/sites/default/files/pubblicazioni/commentary_colombo_10.12.2012_0.pdf
+          publishedOn: ISPI commentary
+          title: 'La nuova Costituzione egiziana: cosa cambia?'
+          year: 2012
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
