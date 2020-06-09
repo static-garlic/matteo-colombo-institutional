@@ -86,6 +86,14 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: 'Libia, cosa può (ancora) fare l’Italia'
           year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
+          publishedOn: ISPI Commentary
+          title: >-
+            Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
+            egiziano
+          year: 2019
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
