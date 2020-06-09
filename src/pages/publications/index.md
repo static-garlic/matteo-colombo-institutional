@@ -66,14 +66,6 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: Cosa vuole ottenere la Turchia dall’intervento in Siria
           year: 2019
-        - author: Matteo Colombo
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
-          publishedOn: ISPI Commentary
-          title: >-
-            Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
-            egiziano
-          year: 2019
         - author: Matteo Colombo and Eugenio Dacrema
           link: >-
             https://www.ispionline.it/it/pubblicazione/il-futuro-della-libia-passa-da-berlino-24867
