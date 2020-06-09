@@ -54,6 +54,12 @@ thinkTankArticles:
           publishedOn: ISPI Focus
           title: Il futuro della Libia passa da Berlino
           year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/libia-cosa-puo-ancora-fare-litalia-24810
+          publishedOn: ISPI Commentary
+          title: 'Libia, cosa può (ancora) fare l’Italia'
+          year: 2020
       language: Italian
     - articles:
         - author: Matteo Colombo
