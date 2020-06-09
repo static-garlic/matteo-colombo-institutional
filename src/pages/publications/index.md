@@ -48,6 +48,12 @@ thinkTankArticles:
             Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
             egiziano
           year: 2019
+        - author: Matteo Colombo and Eugenio Dacrema
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/il-futuro-della-libia-passa-da-berlino-24867
+          publishedOn: ISPI Focus
+          title: Il futuro della Libia passa da Berlino
+          year: 2020
       language: Italian
     - articles:
         - author: Matteo Colombo
