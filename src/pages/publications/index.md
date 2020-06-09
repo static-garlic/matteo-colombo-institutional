@@ -132,6 +132,23 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Siria: Assad è in crisi? La strategia militare di Damasco'
           year: 2015
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/economia-al-centro-la-strategia-delle-opposizioni-fermare-lakp-13430
+          publishedOn: ISPI commentary
+          title: 'Economia al centro: la strategia delle opposizioni per fermare l’AKP'
+          year: 2015
+        - author: Matteo Colombo
+          link: 'https://www.ispionline.it/en/node/13008'
+          publishedOn: ISPI commentary
+          title: 'Intervento saudita in Yemen, ragioni e conseguenze regionali'
+          year: 2013
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/dopo-sharm-el-sheikh-la-strategia-economica-di-al-sisi-12926
+          publishedOn: ISPI commentary
+          title: 'Dopo Sharm el-Sheikh, la strategia economica di al-Sisi'
+          year: 2015
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
