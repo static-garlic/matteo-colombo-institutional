@@ -118,6 +118,14 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Egitto: che fine ha fatto la rivoluzione?'
           year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-le-bombe-su-sayeda-zeinab-e-la-logica-dello-scontro-sciiti-sunniti-14552
+          publishedOn: ISPI Commentary
+          title: >-
+            Siria, le bombe su Sayeda Zeinab e la lógica dello scontro
+            sciiti-sunniti
+          year: 2016
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
