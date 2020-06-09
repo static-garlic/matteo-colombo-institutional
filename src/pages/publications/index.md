@@ -49,7 +49,7 @@ thinkTankArticles:
         - author: Matteo Colombo and Giuseppe Dentice
           link: >-
             https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
-          publishedOn: Approfondimento Mediterraneo Allargato
+          publishedOn: Approfondimento mediterraneo allargato
           title: >-
             L’accordo Turchia-Gna sui confini marittimi e i riflessi nelle
             dinamiche trasversali del Mediterraneo Orientale
@@ -63,7 +63,7 @@ thinkTankArticles:
         - author: Matteo Colombo and Eugenio Dacrema
           link: >-
             https://www.ispionline.it/it/pubblicazione/il-futuro-della-libia-passa-da-berlino-24867
-          publishedOn: ISPI Focus
+          publishedOn: ISPI focus
           title: Il futuro della Libia passa da Berlino
           year: 2020
         - author: Matteo Colombo
@@ -81,7 +81,7 @@ thinkTankArticles:
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
-          publishedOn: ISPI Commentary
+          publishedOn: ISPI commentary
           title: >-
             Da Fratellanza a ‘Fratellanze’: Morsi e la crisi dell’Islam politico
             egiziano
@@ -112,6 +112,26 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Accordi Egitto-Francia: una vittoria per l’Arabia Saudita'
           year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/egitto-che-fine-ha-fatto-la-rivoluzione-17437
+          publishedOn: ISPI commentary
+          title: 'Egitto: che fine ha fatto la rivoluzione?'
+          year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-le-bombe-su-sayeda-zeinab-e-la-logica-dello-scontro-sciiti-sunniti-14552
+          publishedOn: ISPI commentary
+          title: >-
+            Siria, le bombe su Sayeda Zeinab e la lógica dello scontro
+            sciiti-sunniti
+          year: 2016
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-assad-e-crisi-la-strategia-militare-di-damasco-13564
+          publishedOn: ISPI commentary
+          title: 'Siria: Assad è in crisi? La strategia militare di Damasco'
+          year: 2015
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
