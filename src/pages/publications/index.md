@@ -132,6 +132,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Siria: Assad è in crisi? La strategia militare di Damasco'
           year: 2015
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/economia-al-centro-la-strategia-delle-opposizioni-fermare-lakp-13430
+          publishedOn: ISPI commentary
+          title: 'Economia al centro: la strategia delle opposizioni per fermare l’AKP'
+          year: 2015
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
