@@ -60,12 +60,6 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: 'Siria: le conseguenze dell’uccisione dei soldati turchi'
           year: 2020
-        - author: Matteo Colombo
-          link: >-
-            https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
-          publishedOn: ISPI Commentary
-          title: Cosa vuole ottenere la Turchia dall’intervento in Siria
-          year: 2019
         - author: Matteo Colombo and Eugenio Dacrema
           link: >-
             https://www.ispionline.it/it/pubblicazione/il-futuro-della-libia-passa-da-berlino-24867
@@ -78,6 +72,12 @@ thinkTankArticles:
           publishedOn: ISPI Commentary
           title: 'Libia, cosa può (ancora) fare l’Italia'
           year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
+          publishedOn: ISPI Commentary
+          title: Cosa vuole ottenere la Turchia dall’intervento in Siria
+          year: 2019
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/da-fratellanza-fratellanze-morsi-e-la-crisi-dellislam-politico-egiziano-23325
