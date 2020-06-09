@@ -149,6 +149,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'Dopo Sharm el-Sheikh, la strategia economica di al-Sisi'
           year: 2015
+        - author: Matteo Colombo and Paolo Maggiolini
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/giordania-e-la-logica-della-violenza-12461
+          publishedOn: ISPI Commentary
+          title: 'IS, Giordania e la logica della violenza'
+          year: 2015
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
