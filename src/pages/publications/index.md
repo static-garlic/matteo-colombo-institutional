@@ -30,6 +30,12 @@ thinkTankArticles:
           year: 2020
         - author: Matteo Colombo
           link: >-
+            https://www.ispionline.it/it/pubblicazione/siria-le-conseguenze-delluccisione-dei-soldati-turchi-24998
+          publishedOn: ISPI Commentary
+          title: 'Siria: le conseguenze dell’uccisione dei soldati turchi'
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
             https://www.ispionline.it/it/pubblicazione/cosa-vuole-ottenere-la-turchia-dallintervento-siria-24149
           publishedOn: ISPI Commentary
           title: Cosa vuole ottenere la Turchia dall’intervento in Siria
