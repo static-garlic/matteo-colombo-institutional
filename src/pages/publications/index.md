@@ -14,6 +14,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/il-matrimonio-dinteresse-tra-turchia-e-libia-25596
+          publishedOn: ISPI commentary
+          title: Il matrimonio d’interesse tra Turchia e Libia
+          year: 2020
         - author: Matteo Colombo and Giuseppe Dentice
           link: >-
             https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n12-25141
