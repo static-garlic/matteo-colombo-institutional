@@ -100,6 +100,12 @@ thinkTankArticles:
             Un anno dopo Regeni. Come cambia la política estera italiana nel
             Mediterraneo
           year: 2017
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/un-anno-dopo-regeni-come-cambia-la-politica-estera-italiana-nel-mediterraneo-16261
+          publishedOn: ISPI commentary
+          title: 'Turchia: Errori e conseguenze di un golpe mancato'
+          year: 2016
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
