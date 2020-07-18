@@ -16,6 +16,12 @@ thinkTankArticles:
     - articles:
         - author: Matteo Colombo
           link: >-
+            https://www.ispionline.it/en/pubblicazione/political-opportunities-and-financial-hazards-eastern-mediterranean-26986
+          publishedOn: ISPI Commentary
+          title: ' Political Opportunities and Financial Hazards in the Eastern Mediterranean'
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
             https://www.ispionline.it/it/pubblicazione/libya-fighting-escalates-stalemate-looms-26437
           publishedOn: ISPI Commentary
           title: ' Libya: As Fighting Escalates, Stalemate Looms'
