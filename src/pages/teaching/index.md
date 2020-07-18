@@ -27,7 +27,7 @@ instructor:
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluation-terrorism-.xlsx
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
