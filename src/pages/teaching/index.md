@@ -9,7 +9,7 @@ courseCoordinator:
         for International Political Studies (ISPI), 2020 (Italian)
     - topic: >-
         Politics and energy in the enlarged Mediterranean region, Italian
-        Institute for International Political Studies (ISPI), 2020 (Italian)'
+        Institute for International Political Studies (ISPI), 2020 (Italian)
     - topic: >-
         Terrorism in its many forms, Italian Institute for International
         Political Studies (ISPI), 2020 (Italian)
