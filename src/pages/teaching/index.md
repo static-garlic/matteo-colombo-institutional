@@ -154,7 +154,7 @@ instructor:
         - course: Master in communication for international relations
           studentsEvaluationsFile: ''
           title: IS communication strategy
-          university: IULM University
+          university: IULM - University
           year: '2015'
       topic: Communication for international relations (Italian)
 ---
