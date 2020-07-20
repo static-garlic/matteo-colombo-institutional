@@ -22,12 +22,12 @@ instructor:
   teachings:
     - lectures:
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/terrorism-history-points-of-contacts.xlsx
           title: 'Terrorism, history and contact points'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluation-terrorism-.xlsx
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
