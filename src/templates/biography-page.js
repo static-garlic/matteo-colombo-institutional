@@ -43,7 +43,7 @@ BiographyPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   relativeLinks: PropTypes.array,
-  cvFile: PropTypes.string,
+  cvFile: PropTypes.object,
   cvLink: PropTypes.object
 };
 

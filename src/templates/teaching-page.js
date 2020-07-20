@@ -54,7 +54,7 @@ TeachingPageTemplate.propTypes = {
                   course: PropTypes.string,
                   university: PropTypes.string,
                   year: PropTypes.string,
-                  studentsEvaluationsFile: PropTypes.object
+                  studentsEvaluationsFile: PropTypes.object,
                 }
               )
             )
@@ -106,7 +106,9 @@ export const teachingPage = graphql`
               course
               university
               year
-              studentsEvaluationsFile
+              studentsEvaluationsFile {
+                absolutePath
+              }
             }
           }
         }
