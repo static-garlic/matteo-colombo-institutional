@@ -22,7 +22,7 @@ instructor:
   teachings:
     - lectures:
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: ''
+          studentsEvaluationsFile: /img/evaluation-terrorism-.xlsx
           title: 'Terrorism, history and contact points'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
