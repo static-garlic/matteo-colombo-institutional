@@ -9,7 +9,7 @@ courseCoordinator:
         for International Political Studies (ISPI), 2020 (Italian)
     - topic: >-
         Politics and energy in the enlarged Mediterranean region, Italian
-        Institute for International Political Studies (ISPI), 2020 (Italian)
+        Institute for International Political Studies (ISPI), 2020 (Italian)'
     - topic: >-
         Terrorism in its many forms, Italian Institute for International
         Political Studies (ISPI), 2020 (Italian)
@@ -22,16 +22,18 @@ instructor:
   teachings:
     - lectures:
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: /img/terrorism-history-points-of-contacts.xlsx
+          studentsEvaluationsFile: ''
           title: 'Terrorism, history and contact points'
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
         - course: 'Terrorism, ideology, communication and counteractions'
-          studentsEvaluationsFile: /img/evaluation-terrorism-.xlsx
+          studentsEvaluationsFile: ''
           title: The communication strategy of Jihadist groups
           university: Italian Institute for International Political Studies (ISPI)
           year: '2020'
-      topic: 'Terrorism, ideology, communication and counteractions (Italian)'
+      topic: >-
+        Terrorism, ideology, communication and counteractions (Forthcoming -
+        Italian)
     - lectures:
         - course: 'Democracy and regime changes in Arab, African and Asian countries'
           studentsEvaluationsFile: /img/evaluations-a-new-arab-spring-.xlsx
