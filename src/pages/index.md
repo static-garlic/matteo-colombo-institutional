@@ -3,7 +3,6 @@ templateKey: index-page
 title: >-
   ECFR Pan-European Junior Fellow (Oct '20), ISPI Associate Research Fellow
   (MENA), PhD (University of Milan), Journalist, Infographics Designer
-  (IT/ENG/AR)
 image: /img/home-jumbotron.png
 sectionCards:
   - link: /publications
