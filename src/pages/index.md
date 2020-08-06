@@ -1,8 +1,9 @@
 ---
 templateKey: index-page
 title: >-
-  ISPI Associate Research Fellow (MENA Programme), Ph.D. (NASP, University of
-  Milan), Journalist, Infographics Designer
+  ECFR Pan-European Junior Fellow (Oct '20), ISPI Associate Research Fellow
+  (MENA), PhD (University of Milan), Journalist, Infographics Designer
+  (IT/ENG/AR)
 image: /img/home-jumbotron.png
 sectionCards:
   - link: /publications
