@@ -194,7 +194,8 @@ chapterEBooks:
   articlesPerLanguage:
     - articles:
         - author: ''
-          link: ''
+          link: >-
+            https://www.academia.edu/41450999/IS_and_the_Others_A_Topic_Analysis_of_Pro_and_Anti_IS_Discourse_on_Arabic_Speaking_Twitter
           publishedOn: >-
             Digital Jihad: Online Communication and Violent Extremism (Ed.
             Francesco Marone)
