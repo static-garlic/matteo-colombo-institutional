@@ -46,6 +46,14 @@ thinkTankArticles:
           year: 2016
       language: English
     - articles:
+        - author: Matteo Colombo e Giuseppe Dentice
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/laccordo-egitto-grecia-e-il-grande-gioco-il-mediterraneo-orientale-27182
+          publishedOn: ISPI commentary
+          title: >-
+            L’accordo Egitto-Grecia e il Grande Gioco per il Mediterraneo
+            Orientale
+          year: 2020
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/il-matrimonio-dinteresse-tra-turchia-e-libia-25596
