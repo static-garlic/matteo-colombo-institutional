@@ -46,6 +46,14 @@ thinkTankArticles:
           year: 2016
       language: English
     - articles:
+        - author: Matteo Colombo e Giuseppe Dentice
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/laccordo-egitto-grecia-e-il-grande-gioco-il-mediterraneo-orientale-27182
+          publishedOn: ISPI commentary
+          title: >-
+            L’accordo Egitto-Grecia e il Grande Gioco per il Mediterraneo
+            Orientale
+          year: 2020
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/il-matrimonio-dinteresse-tra-turchia-e-libia-25596
@@ -207,6 +215,12 @@ newspaperArticles:
             Il mondo arabo e la guerra a Isis: in rete Trump più popolare di
             Obama grazie all’Iran
           year: 2017
+        - author: Matteo Colombo e Chiara Lovotti
+          link: >-
+            https://oggiedomani.substack.com/p/le-tre-crisi-del-libano-vecchie-lite?r=2ei3o&utm_campaign=post&utm_medium=web&utm_source=twitter
+          publishedOn: Domani
+          title: ' L’accordo Egitto-Grecia e il Grande Gioco per il Mediterraneo Orientale'
+          year: 2020
       language: Italian
     - articles:
         - author: 'Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus'
