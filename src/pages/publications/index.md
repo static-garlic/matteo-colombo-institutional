@@ -207,6 +207,12 @@ chapterEBooks:
 newspaperArticles:
   articlesPerLanguage:
     - articles:
+        - author: Matteo Colombo e Chiara Lovotti
+          link: >-
+            https://oggiedomani.substack.com/p/le-tre-crisi-del-libano-vecchie-lite?r=2ei3o&utm_campaign=post&utm_medium=web&utm_source=twitter
+          publishedOn: Domani
+          title: Le tre crisi del Libano. Vecchie élite e nuovi problemi
+          year: 2020
         - author: 'Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus'
           link: >-
             https://www.corriere.it/esteri/17_settembre_28/mondo-arabo-guerra-isis-rete-trump-piu-popolare-obama-grazie-all-iran-52c01bfc-a424-11e7-b9ac-71d7c26035bb.shtml
@@ -215,12 +221,6 @@ newspaperArticles:
             Il mondo arabo e la guerra a Isis: in rete Trump più popolare di
             Obama grazie all’Iran
           year: 2017
-        - author: Matteo Colombo e Chiara Lovotti
-          link: >-
-            https://oggiedomani.substack.com/p/le-tre-crisi-del-libano-vecchie-lite?r=2ei3o&utm_campaign=post&utm_medium=web&utm_source=twitter
-          publishedOn: Domani
-          title: ' L’accordo Egitto-Grecia e il Grande Gioco per il Mediterraneo Orientale'
-          year: 2020
       language: Italian
     - articles:
         - author: 'Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus'
