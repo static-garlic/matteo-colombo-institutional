@@ -215,6 +215,12 @@ newspaperArticles:
             Il mondo arabo e la guerra a Isis: in rete Trump più popolare di
             Obama grazie all’Iran
           year: 2017
+        - author: Matteo Colombo e Chiara Lovotti
+          link: >-
+            https://oggiedomani.substack.com/p/le-tre-crisi-del-libano-vecchie-lite?r=2ei3o&utm_campaign=post&utm_medium=web&utm_source=twitter
+          publishedOn: Domani
+          title: ' L’accordo Egitto-Grecia e il Grande Gioco per il Mediterraneo Orientale'
+          year: 2020
       language: Italian
     - articles:
         - author: 'Matteo Colombo, Luigi Curini, Andrea Ceron and Stefano M. Iacus'
