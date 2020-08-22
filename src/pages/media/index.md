@@ -9,6 +9,14 @@ press:
   mediaPerLanguage:
     - language: Italian
       mediaList:
+        - author: Giada Ferraglioni
+          link: >-
+            https://www.open.online/2020/08/19/libia-turchia-fa-base-a-misurata-ecco-perche-e-un-problema-anche-italiano/
+          publishedOn: Open
+          title: >-
+            Libia, la Turchia fa base a Misurata. Ecco perché è un problema
+            anche italiano – L’analisi
+          year: '2020'
         - author: Daniele Latella
           link: >-
             https://www.lindro.it/libia-verso-la-conferenza-nazionale-unita-ora-o-mai-piu/
