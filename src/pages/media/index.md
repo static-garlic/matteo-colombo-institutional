@@ -49,6 +49,12 @@ press:
           publishedOn: Inside Over
           title: Nove anni dopo. Cosa è cambiato in Egitto dalla rivoluzione del 2011
           year: '2020'
+        - author: Tutta la città ne parla
+          link: >-
+            https://www.raiplayradio.it/audio/2020/09/TUTTA-LA-CITTAapos-NE-PARLA---Lesbo-brucia-fiamme-nel-campo-profughi--5e13426e-f773-45ad-bb6a-4ad4c8f271f2.html
+          publishedOn: Radio 3
+          title: 'Lesbo brucia, in fiamme il più grande campo profughi d''Europa'
+          year: '2020'
     - language: English
       mediaList:
         - author: Maged Srour
