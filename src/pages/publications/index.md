@@ -193,6 +193,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: 'La nuova Costituzione egiziana: cosa cambia?'
           year: 2012
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/libia-perche-la-tregua-potrebbe-reggere-27203
+          publishedOn: ISPI commentary
+          title: ' Libia: perché la tregua potrebbe reggere'
+          year: 2020
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
