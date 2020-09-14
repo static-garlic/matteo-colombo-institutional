@@ -55,6 +55,14 @@ press:
           publishedOn: Radio 3
           title: 'Lesbo brucia, in fiamme il più grande campo profughi d''Europa'
           year: '2020'
+        - author: Radio Anch'io
+          link: >-
+            https://www.raiplayradio.it/audio/2020/08/RADIO-ANCHaposIO-8201a666-d11c-469f-b62b-3c097ff3f012.html
+          publishedOn: Rai Radio Uno
+          title: >-
+            Riapertura delle scuole. Fondi europei. Crisi greco- turca e
+            disordini in Bielorussia.
+          year: '2020'
     - language: English
       mediaList:
         - author: Maged Srour
