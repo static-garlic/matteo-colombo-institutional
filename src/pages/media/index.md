@@ -9,6 +9,20 @@ press:
   mediaPerLanguage:
     - language: Italian
       mediaList:
+        - author: Tutta la città ne parla
+          link: >-
+            https://www.raiplayradio.it/audio/2020/09/TUTTA-LA-CITTAapos-NE-PARLA---Lesbo-brucia-fiamme-nel-campo-profughi--5e13426e-f773-45ad-bb6a-4ad4c8f271f2.html
+          publishedOn: Radio 3
+          title: 'Lesbo brucia, in fiamme il più grande campo profughi d''Europa'
+          year: '2020'
+        - author: Radio Anch'io
+          link: >-
+            https://www.raiplayradio.it/audio/2020/08/RADIO-ANCHaposIO-8201a666-d11c-469f-b62b-3c097ff3f012.html
+          publishedOn: Rai Radio Uno
+          title: >-
+            Riapertura delle scuole. Fondi europei. Crisi greco- turca e
+            disordini in Bielorussia.
+          year: '2020'
         - author: Giada Ferraglioni
           link: >-
             https://www.open.online/2020/08/19/libia-turchia-fa-base-a-misurata-ecco-perche-e-un-problema-anche-italiano/
@@ -48,20 +62,6 @@ press:
             https://it.insideover.com/politica/nove-anni-dopo-cosa-e-cambiato-in-egitto-dalla-rivoluzione-del-2011.html?fbclid=IwAR2ZcFC8fretyV0MsqY21u02Do_mWZ841rzrSKbemW4DtqX2xDUc2qmOxMs
           publishedOn: Inside Over
           title: Nove anni dopo. Cosa è cambiato in Egitto dalla rivoluzione del 2011
-          year: '2020'
-        - author: Tutta la città ne parla
-          link: >-
-            https://www.raiplayradio.it/audio/2020/09/TUTTA-LA-CITTAapos-NE-PARLA---Lesbo-brucia-fiamme-nel-campo-profughi--5e13426e-f773-45ad-bb6a-4ad4c8f271f2.html
-          publishedOn: Radio 3
-          title: 'Lesbo brucia, in fiamme il più grande campo profughi d''Europa'
-          year: '2020'
-        - author: Radio Anch'io
-          link: >-
-            https://www.raiplayradio.it/audio/2020/08/RADIO-ANCHaposIO-8201a666-d11c-469f-b62b-3c097ff3f012.html
-          publishedOn: Rai Radio Uno
-          title: >-
-            Riapertura delle scuole. Fondi europei. Crisi greco- turca e
-            disordini in Bielorussia.
           year: '2020'
     - language: English
       mediaList:
