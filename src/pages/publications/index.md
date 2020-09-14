@@ -14,6 +14,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - author: Matteo Colombo and Valerio Vignoli
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/italy-eastern-mediterranean-between-continuity-and-new-challenges-27357
+          publishedOn: ISPI Commentary
+          title: ' Italy in the Eastern Mediterranean: Between Continuity and New Challenges'
+          year: 2020
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/en/pubblicazione/political-opportunities-and-financial-hazards-eastern-mediterranean-26986
