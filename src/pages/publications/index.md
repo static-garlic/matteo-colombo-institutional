@@ -2,6 +2,13 @@
 templateKey: publications-page
 path: /publications
 title: Publications
+books:
+  bookList:
+    - author: Matteo Colombo and Luigi Curini
+      publishedOn: Palgrave Macmillan
+      title: 'Discussing the Islamic State on Twitter'
+      year: 'Forthcoming - 2021'
+  title: Books
 peerArticles:
   articles:
     - author: Matteo Colombo and Arturo Varvelli

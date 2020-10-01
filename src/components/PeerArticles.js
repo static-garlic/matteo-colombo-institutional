@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const PeerArticles = ({peerArticles}) => (
   <div className="PeerArticles">
-    <h3>{peerArticles.title}</h3>
+    <h3 className="pt-4 pb-2">{peerArticles.title}</h3>
     { peerArticles.articles.map(article =>
       <p key={article.title}>
         <span>{article.author} ({article.year}). </span>

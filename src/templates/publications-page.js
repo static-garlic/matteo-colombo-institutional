@@ -4,10 +4,11 @@ import {graphql} from 'gatsby'
 import Layout from '../components/Layout'
 import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Col, Container, Row} from "reactstrap";
+import {Books} from "../components/Books";
 import {PeerArticles} from "../components/PeerArticles";
 import {StandardPublications} from "../components/StandardPublications";
 
-export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles, chapterEBooks, newspaperArticles, infographicsMaps}) => {
+export const PublicationsPageTemplate = ({title, books, peerArticles, thinkTankArticles, chapterEBooks, newspaperArticles, infographicsMaps}) => {
 
   return (
     <Fragment>
@@ -15,6 +16,9 @@ export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles
       <Container>
         <Row>
           <Col>
+            {
+              <Books books={books} />
+            }
             {
               <PeerArticles peerArticles={peerArticles} />
             }
@@ -39,6 +43,7 @@ export const PublicationsPageTemplate = ({title, peerArticles, thinkTankArticles
 
 PublicationsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  books: PropTypes.object,
   peerArticles: PropTypes.object,
   thinkTankArticles: PropTypes.object,
   chapterEBooks: PropTypes.object,
@@ -53,6 +58,7 @@ const PublicationsPage = ({data}) => {
     <Layout>
       <PublicationsPageTemplate
         title={publications.frontmatter.title}
+        books={publications.frontmatter.books}
         peerArticles={publications.frontmatter.peerArticles}
         thinkTankArticles={publications.frontmatter.thinkTankArticles}
         chapterEBooks={publications.frontmatter.chapterEBooks}
@@ -74,6 +80,15 @@ export const publicationsPage = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        books {
+          title
+          bookList {
+            title
+            author
+            year
+            publishedOn
+          }
+        }
         peerArticles {
           title
           articles {

@@ -52,6 +52,50 @@ collections:
           - {label: Path, name: path, widget: "hidden", default: "/publications"}
           - {label: "Title", name: "title", widget: "string"}
           - {
+            label: "Books",
+            name: "books",
+            widget: object,
+            fields: [
+              {
+                label: "Section Title",
+                name: title,
+                widget: string
+              },
+              {
+                label: "Books",
+                name: bookList,
+                widget: list,
+                fields:
+                  [
+                    {
+                      label: "Title",
+                      name: title,
+                      widget: string,
+                      required: false
+                    },
+                    {
+                      label: "Author",
+                      name: author,
+                      widget: string,
+                      required: false
+                    },
+                    {
+                      label: "Year",
+                      name: year,
+                      widget: number,
+                      required: false
+                    },
+                    {
+                      label: "Published on",
+                      name: publishedOn,
+                      widget: string,
+                      required: false
+                    }
+                  ]
+              }
+            ]
+          }
+          - {
             label: "Peer-Reviewed Journal Articles",
             name: "peerArticles",
             widget: object,
