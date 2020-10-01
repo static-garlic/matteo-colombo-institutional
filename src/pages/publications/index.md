@@ -199,6 +199,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: ' Libia: perché la tregua potrebbe reggere'
           year: 2020
+        - author: Matteo Colombo
+          link: >-
+            https://www.ispionline.it/it/pubblicazione/la-siria-tra-stallo-militare-crisi-economica-e-cambiamenti-politici-27564
+          publishedOn: ISPI commentary
+          title: 'La Siria tra stallo militare, crisi economica e cambiamenti politici'
+          year: 2020
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
