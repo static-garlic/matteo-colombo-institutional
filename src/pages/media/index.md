@@ -92,6 +92,17 @@ television:
   mediaPerLanguage:
     - language: Italian
       mediaList:
+        - title: Commento sugli attacchi di IS a Nizza
+          publishedOn: Tgcom 24
+          year: "2020"
+        - title: "Lo stallo libico a 9 anni dalla liberazione "
+          publishedOn: Radio 3
+          year: "2020"
+          link: https://www.raiplayradio.it/audio/2020/10/RADIO3--MONDO---Lo-stallo-libico-a-9-anni-dalla-liberazione--c0472a06-c496-43ba-b4b8-8d2036313578.html?fbclid=IwAR0MrUAXcqtf7s2I0-XBcEyWkpamcHclPw4dj0ZM31MjUkZOy1FrtS-kPj4
+        - title: L'attentato a Vienna
+          publishedOn: Radio Anch'io - Radio uno
+          year: "2020"
+          link: https://www.raiplayradio.it/audio/2020/10/RADIO-ANCHaposIO-66d9757d-3497-44d3-86e0-c4138b66d4d9.html?fbclid=IwAR2U09zc7qOkSC9sI9Og8qKetOmCVe2MFS5ovxeBNi-Q3FwQsXDmaA5EmDQ
         - publishedOn: Checkpoint - Rainews24
           title: L'Egitto e la morte di Hosni Mubarak
           year: "2020"
