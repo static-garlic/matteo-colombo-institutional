@@ -75,7 +75,8 @@ infographicsList:
   - caption:
       link: >-
         https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n14-27563
-    image: /img/turchiarussiaegitto-finale-.png
+      text: United Arab Emirates
+    image: /img/uae-finale-.png
 disclaimer: >-
   All images © 2016-2020 Italian Institute for International Political Studies
   (ISPI). Please do not share or reproduce without attribution.
