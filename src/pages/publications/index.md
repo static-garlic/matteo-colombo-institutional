@@ -61,6 +61,12 @@ thinkTankArticles:
     - articles:
         - author: Matteo Colombo
           link: >-
+            https://rienergia.staffettaonline.com/articolo/34620/Mediterraneo:+la+Turchia+contro+tutti+per+il+predominio+sul+gas/Colombo
+          publishedOn: RiEnergia
+          title: 'Mediterraneo: La Turchia contro tutti per il predominio del gas'
+          year: 2020
+        - author: Matteo Colombo
+          link: >-
             https://www.ispionline.it/it/pubblicazione/la-siria-tra-stallo-militare-crisi-economica-e-cambiamenti-politici-27564
           publishedOn: ISPI commentary
           title: 'La Siria tra stallo militare, crisi economica e cambiamenti politici'
