@@ -237,7 +237,7 @@ chapterEBooks:
         - author: Matteo Colombo and Arturo Varvelli
           link: >-
             https://www.iemed.org/observatori/arees-danalisi/arxius-adjunts/anuari/med.2020/Libya_Failed_State_Varvelli_Colombo_IEMed_YearBook2020.pdf
-          publishedOn: IEMed Mediterranean Yearbook 2020
+          publishedOn: IEMed Mediterranean Yearbook
           title: 'Libya: A Failed State in the Middle of the Mediterranean'
           year: 2020
       language: English
