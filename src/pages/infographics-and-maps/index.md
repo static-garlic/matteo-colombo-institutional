@@ -62,6 +62,21 @@ infographicsList:
         https://www.ispionline.it/en/pubblicazione/kingdom-militias-libyas-second-war-post-qadhafi-succession-23121
       text: The territorial gains of Haftar in Libya
     image: /img/infographic-territorial-gains.png
+  - caption:
+      link: >-
+        https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n14-27563
+      text: The Annexion plan of Israel
+    image: /img/annessioneisraele-finale-.png
+  - caption:
+      link: >-
+        https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n14-27563
+      text: Turkey Foreign Policy
+    image: /img/turchiapoliticaestera-finale-.png
+  - caption:
+      link: >-
+        https://www.ispionline.it/it/pubblicazione/focus-mediterraneo-allargato-n14-27563
+      text: United Arab Emirates
+    image: /img/uae-finale-.png
 disclaimer: >-
   All images © 2016-2020 Italian Institute for International Political Studies
   (ISPI). Please do not share or reproduce without attribution.

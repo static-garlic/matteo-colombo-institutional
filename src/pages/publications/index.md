@@ -6,8 +6,8 @@ books:
   bookList:
     - author: Matteo Colombo and Luigi Curini
       publishedOn: Palgrave Macmillan
-      title: 'Discussing the Islamic State on Twitter'
-      year: 'Forthcoming - 2021'
+      title: Discussing the Islamic State on Twitter
+      year: Forthcoming - 2021
   title: Books
 peerArticles:
   articles:
@@ -59,6 +59,12 @@ thinkTankArticles:
           year: 2016
       language: English
     - articles:
+        - author: Matteo Colombo
+          link: >-
+            https://rienergia.staffettaonline.com/articolo/34620/Mediterraneo:+la+Turchia+contro+tutti+per+il+predominio+sul+gas/Colombo
+          publishedOn: RiEnergia
+          title: 'Mediterraneo: La Turchia contro tutti per il predominio del gas'
+          year: 2020
         - author: Matteo Colombo
           link: >-
             https://www.ispionline.it/it/pubblicazione/la-siria-tra-stallo-militare-crisi-economica-e-cambiamenti-politici-27564
@@ -228,6 +234,12 @@ chapterEBooks:
             The Islamic State (IS) and the others. A topic analysis of pro-IS
             and anti-IS discourse on Arabic-speaking Twitter
           year: 2019
+        - author: Matteo Colombo and Arturo Varvelli
+          link: >-
+            https://www.iemed.org/observatori/arees-danalisi/arxius-adjunts/anuari/med.2020/Libya_Failed_State_Varvelli_Colombo_IEMed_YearBook2020.pdf
+          publishedOn: IEMed Mediterranean Yearbook
+          title: 'Libya: A Failed State in the Middle of the Mediterranean'
+          year: 2020
       language: English
   title: Chapters in books
 chapterReports:
