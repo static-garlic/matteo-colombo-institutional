@@ -229,7 +229,19 @@ chapterEBooks:
             and anti-IS discourse on Arabic-speaking Twitter
           year: 2019
       language: English
-  title: Chapter in books
+  title: Chapters in books
+chapterReports:
+  articlesPerLanguage:
+    - articles:
+        - author: 'Matteo Colombo and Valerio Vignoli'
+          link: >-
+            https://med.ispionline.it/publication/report-med2020-navigating-the-pandemic/
+          publishedOn: 'MED REPORT'
+          title: >-
+            A window of opportunity for Libya. How the EU can support a negotiated settlement
+          year: 2020
+      language: English
+  title: Chapters in reports
 newspaperArticles:
   articlesPerLanguage:
     - articles:

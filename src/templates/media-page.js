@@ -7,7 +7,7 @@ import {SectionJumbotron} from "../components/SectionJumbotron";
 import {Col, Container, Row} from "reactstrap";
 import {MediaList} from "../components/MediaList";
 
-export const MediaPageTemplate = ({ title, sectionIntro, content, contentComponent, press, television }) => {
+export const MediaPageTemplate = ({ title, sectionIntro, content, contentComponent, press, television, videos }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -33,6 +33,13 @@ export const MediaPageTemplate = ({ title, sectionIntro, content, contentCompone
             }
           </Col>
         </Row>
+        <Row>
+          <Col>
+            {
+              <MediaList mediaList={videos} />
+            }
+          </Col>
+        </Row>
         <Row className="pt-2">
           <Col>
             <PageContent className="content" content={content} />
@@ -48,6 +55,7 @@ MediaPageTemplate.propTypes = {
   sectionIntro: PropTypes.string,
   press: PropTypes.object,
   television: PropTypes.object,
+  videos: PropTypes.object,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -63,6 +71,7 @@ const MediaPage = ({ data }) => {
         sectionIntro={media.frontmatter.sectionIntro}
         press={media.frontmatter.press}
         television={media.frontmatter.television}
+        videos={media.frontmatter.videos}
         content={media.html}
       />
     </Layout>
@@ -96,6 +105,18 @@ export const mediaPage = graphql`
           }
         }
         television {
+          mediaType
+          mediaPerLanguage {
+            language
+            mediaList {
+              title
+              year
+              publishedOn
+              link
+            }
+          }
+        }
+        videos {
           mediaType
           mediaPerLanguage {
             language

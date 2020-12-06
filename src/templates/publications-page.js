@@ -8,7 +8,7 @@ import {Books} from "../components/Books";
 import {PeerArticles} from "../components/PeerArticles";
 import {StandardPublications} from "../components/StandardPublications";
 
-export const PublicationsPageTemplate = ({title, books, peerArticles, thinkTankArticles, chapterEBooks, newspaperArticles, infographicsMaps}) => {
+export const PublicationsPageTemplate = ({title, books, peerArticles, thinkTankArticles, chapterEBooks, chapterReports, newspaperArticles, infographicsMaps}) => {
 
   return (
     <Fragment>
@@ -24,6 +24,9 @@ export const PublicationsPageTemplate = ({title, books, peerArticles, thinkTankA
             }
             {
               <StandardPublications publications={chapterEBooks} />
+            }
+            {
+              <StandardPublications publications={chapterReports} />
             }
             {
               <StandardPublications publications={thinkTankArticles} />
@@ -62,6 +65,7 @@ const PublicationsPage = ({data}) => {
         peerArticles={publications.frontmatter.peerArticles}
         thinkTankArticles={publications.frontmatter.thinkTankArticles}
         chapterEBooks={publications.frontmatter.chapterEBooks}
+        chapterReports={publications.frontmatter.chapterReports}
         newspaperArticles={publications.frontmatter.newspaperArticles}
         infographicsMaps={publications.frontmatter.infographicsMaps}
       />
@@ -115,6 +119,19 @@ export const publicationsPage = graphql`
           }
         }
         chapterEBooks {
+          title
+          articlesPerLanguage {
+            language
+            articles {
+              title
+              author
+              year
+              publishedOn
+              link
+            }
+          }
+        }
+        chapterReports {
           title
           articlesPerLanguage {
             language

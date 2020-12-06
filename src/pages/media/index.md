@@ -131,5 +131,14 @@ television:
             al Cairo
           year: '2017'
   mediaType: Television and radio
+videos:
+  mediaPerLanguage:
+    - language: Italian
+      mediaList:
+        - link: 'https://www.youtube.com/watch?v=O6ii5blxrEM'
+          publishedOn: ISPI
+          title: 'Grecia - Turchia ai ferri corti: duello nel Mediterraneo orientale'
+          year: '2020'
+  mediaType: Videos and public events
 ---
 
