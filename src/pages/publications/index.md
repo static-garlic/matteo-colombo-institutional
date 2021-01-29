@@ -21,6 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - link: https://ecfr.eu/article/mutual-reassurance-why-europe-should-support-talks-between-egypt-and-turkey/
+          title: "Mutual reassurance: Why Europe should support talks between Egypt and
+            Turkey"
+          author: Matteo Colombo
+          year: 2021
+          publishedOn: European Council on Foreign Relations (ECFR)
         - author: Matteo Colombo and Valerio Vignoli
           link: https://www.ispionline.it/it/pubblicazione/italy-eastern-mediterranean-between-continuity-and-new-challenges-27357
           publishedOn: ISPI Commentary
@@ -53,14 +59,13 @@ thinkTankArticles:
           publishedOn: EuroMeSCo Policy Brief
           title: "Turkey and the EU: a new path toward a shared security policy"
           year: 2016
-        - link: https://ecfr.eu/article/mutual-reassurance-why-europe-should-support-talks-between-egypt-and-turkey/
-          title: "Mutual reassurance: Why Europe should support talks between Egypt and
-            Turkey"
-          author: Matteo Colombo
-          year: 2021
-          publishedOn: European Council on Foreign Relations (ECFR)
       language: English
     - articles:
+        - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
+          title: " Gas nel Mediterraneo orientale: è ancora un’opportunità per l’Europa?"
+          author: Matteo Colombo
+          year: 2021
+          publishedOn: Euractiv
         - author: Matteo Colombo
           link: https://rienergia.staffettaonline.com/articolo/34620/Mediterraneo:+la+Turchia+contro+tutti+per+il+predominio+sul+gas/Colombo
           publishedOn: RiEnergia
@@ -189,6 +194,12 @@ thinkTankArticles:
           publishedOn: ISPI commentary
           title: "La nuova Costituzione egiziana: cosa cambia?"
           year: 2012
+        - link: https://ecfr.eu/rome/article/alla-ricerca-di-un-modus-vivendi-ecco-perche-leuropa-dovrebbe-incoraggiare-il-dialogo-tra-turchia-ed-egitto/
+          title: "Alla ricerca di un modus vivendi: ecco perché l’Europa dovrebbe
+            incoraggiare il dialogo tra Turchia ed Egitto"
+          year: 2021
+          author: Matteo Colombo
+          publishedOn: European Council on Foreign Relations
       language: Italian
   subtitle: A selection of the most recent publications is available here
   title: Think Tank Articles
