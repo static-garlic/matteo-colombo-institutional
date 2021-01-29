@@ -53,6 +53,12 @@ thinkTankArticles:
           publishedOn: EuroMeSCo Policy Brief
           title: "Turkey and the EU: a new path toward a shared security policy"
           year: 2016
+        - link: https://ecfr.eu/article/mutual-reassurance-why-europe-should-support-talks-between-egypt-and-turkey/
+          title: "Mutual reassurance: Why Europe should support talks between Egypt and
+            Turkey"
+          author: Matteo Colombo
+          year: 2021
+          publishedOn: European Council on Foreign Relations (ECFR)
       language: English
     - articles:
         - author: Matteo Colombo
