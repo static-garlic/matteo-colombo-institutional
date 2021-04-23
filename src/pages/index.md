@@ -1,8 +1,7 @@
 ---
 templateKey: index-page
-title: >-
-  ECFR Pan-European Junior Fellow, ISPI Associate Research Fellow (MENA), PhD
-  (University of Milan), Journalist, Infographics Designer
+title: Clingendael Junior Researcher (Conflict Unit), ISPI Associate Research
+  Fellow, and ECFR Visiting Fellow. PhD (Unimi), and infographics designer
 image: /img/home-jumbotron.png
 sectionCards:
   - link: /publications
@@ -18,4 +17,3 @@ sectionCards:
     sectionImage: /img/media-card.png
     sectionTitle: Media
 ---
-
