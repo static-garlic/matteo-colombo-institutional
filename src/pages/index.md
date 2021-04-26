@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Clingendael Junior Researcher (Conflict Unit), ISPI Associate Research
-  Fellow, and ECFR Visiting Fellow. PhD (Unimi), and infographics designer
+title: Junior Researcher (Conflict Unit), ISPI Associate Research Fellow, and
+  ECFR Visiting Fellow. PhD (Unimi), and infographics designer
 image: /img/home-jumbotron.png
 sectionCards:
   - link: /publications
