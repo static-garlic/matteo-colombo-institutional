@@ -7,7 +7,7 @@ books:
     - author: Matteo Colombo and Luigi Curini
       publishedOn: Palgrave Macmillan
       title: Discussing the Islamic State on Twitter
-      year: Forthcoming - 2021
+      year: 2022
   title: Books
 peerArticles:
   articles:
