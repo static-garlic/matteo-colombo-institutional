@@ -59,6 +59,11 @@ thinkTankArticles:
           publishedOn: EuroMeSCo Policy Brief
           title: "Turkey and the EU: a new path toward a shared security policy"
           year: 2016
+        - link: https://www.clingendael.org/publication/coercive-organisations-war-and-state-development-levant
+          title: Coercive organisations, war and state development in the levant
+          author: Matteo Colombo
+          year: 2022
+          publishedOn: Clingendael
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
