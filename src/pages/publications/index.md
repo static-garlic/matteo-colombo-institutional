@@ -21,6 +21,11 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: "A Stubborn Threat: Islamic State In Iraq In Early 2022"
+          author: Matteo Colombo and Nancy Ezzedine
+          year: 2021
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/stubborn-threat-islamic-state-iraq-early-2022
         - link: https://www.clingendael.org/publication/coercive-organisations-war-and-state-development-levant
           title: Coercive organisations, war and state development in the levant
           author: Matteo Colombo
@@ -64,11 +69,6 @@ thinkTankArticles:
           publishedOn: EuroMeSCo Policy Brief
           title: "Turkey and the EU: a new path toward a shared security policy"
           year: 2016
-        - title: "A Stubborn Threat: Islamic State In Iraq In Early 2022"
-          author: Matteo Colombo and Nancy Ezzedine
-          year: 2021
-          publishedOn: Clingendael
-          link: https://www.clingendael.org/publication/stubborn-threat-islamic-state-iraq-early-2022
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
