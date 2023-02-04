@@ -17,11 +17,11 @@ cvLink:
   text: My curriculum vitae is available
 cvFile: /img/curriculumvitae-matteo-colombo-.pdf
 ---
-I am Associate Research Fellow at the MENA Centre of the Italian Institute for International Political Studies (ISPI) (https://www.ispionline.it/it/bio/matteo-colombo) and Pan-European Junior Fellow at the European Council on Foreign Relations (ECFR). I have obtained a PhD in Political Studies at the University of Milan (NASP) (https://www.nasp.eu/people/students/students-cohorts/matteo-colombo.html). My dissertation studies Arabic Twitter discourse on the Islamic State. 
+I am Associate Research Fellow at the MENA Centre of the Italian Institute for International Political Studies (ISPI) (https://www.ispionline.it/it/bio/matteo-colombo). I have obtained a PhD in Political Studies at the University of Milan (NASP) (https://www.nasp.eu/people/students/students-cohorts/matteo-colombo.html). My dissertation studies Arabic Twitter discourse on the Islamic State.  I publisehed a book on the discussion about the Islamic State on Twitter for Palgrave, together with Luigi Curini. 
 
 I am also a professional journalist, infographic designer, and I have contributed to the organization of five editions of Mediterranean Dialogue (MED) (https://med.ispionline.it/), a leading annual event promoted by the Italian Ministry of Foreign Affairs and International Cooperation that brings together high-level statesmen, entrepreneurs, academics, and journalists.   
 
-My main area of expertise is in politics of the MENA region, with a focus on jihadism, sectarianism, data analysis, and social media analysis.  
+My main area of expertise is in politics of the MENA region, with a focus on political islam, sectarianism, data analysis, and social media analysis. My recent publications focus on Egypt and Libya.
 
 I hold a bachelor’s degree in philosophy from the Catholic University of Milan; a Master in International Relations from Oxford Brookes; a Master in Middle East Politics from SOAS (University of London); and a Master in journalism from IULM University in Milan.  
 
