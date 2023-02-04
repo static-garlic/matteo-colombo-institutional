@@ -21,7 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
-        - title: "A Stubborn Threat: Islamic State In Iraq In Early 2022"
+        - title: "Lost In transition: the Muslim Brotherhood in 2022"
+          author: Matteo Colombo
+          year: 2022
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/lost-transition-muslim-brotherhood-2022
+        - title: "A Stubborn threat: Islamic State in Iraq in early 2022"
           author: Matteo Colombo and Nancy Ezzedine
           year: 2021
           publishedOn: Clingendael
