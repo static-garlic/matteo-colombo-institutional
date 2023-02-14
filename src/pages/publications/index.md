@@ -5,7 +5,7 @@ title: Publications
 books:
   bookList:
     - author: Matteo Colombo and Luigi Curini
-      publishedOn: Palgrave Macmillan
+      publishedOn: Palgrave Macmilla
       title: Discussing the Islamic State on Twitter
       year: 2022
   title: Books
