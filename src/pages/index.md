@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Clingendael Junior Researcher (Conflict Unit), ISPI Associate Research
+title: Clingendael Research Fellow (Conflict Unit), ISPI Associate Research
   Fellow, PhD (Unimi), and infographics designer
 image: /img/home-jumbotron.png
 sectionCards:
