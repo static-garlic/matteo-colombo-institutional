@@ -21,6 +21,16 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: "Power & Potential: The Economics Of Egyptian Construction And ICT"
+          author: Matteo Colombo
+          year: 2023
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/power-potential-economics-egyptian-construction-and-ict
+        - title: The Egyptian Political Economy under Al-Sisi
+          author: Matteo Colombo
+          year: 2023
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/egyptian-political-economy-under-al-sisi
         - title: "Lost In transition: the Muslim Brotherhood in 2022"
           author: Matteo Colombo
           year: 2022
