@@ -96,6 +96,11 @@ thinkTankArticles:
           author: Matteo Colombo and Nienke van Heukelingen
           year: 2022
           publishedOn: Clingendael
+        - title: Storm Over the Nile
+          author: Matteo Colombo, Moneera Yassien
+          year: 2024
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/storm-over-nile
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
