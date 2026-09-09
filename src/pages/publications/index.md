@@ -113,6 +113,12 @@ thinkTankArticles:
           year: 2025
           publishedOn: Clingendael
           link: https://www.clingendael.org/publication/connecting-shores-assessing-egypts-ict-nearshoring-potential
+        - title: "Cutting through the green hype: the political economy of renewable
+            energy in the United Arab Emirates and Oman"
+          author: Matteo Colombo, Máté Szalai
+          year: 2025
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/cutting-through-green-hype-political-economy-renewable-energy-united-arab-emirates-and
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
