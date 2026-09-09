@@ -27,6 +27,12 @@ thinkTankArticles:
           year: 2025
           publishedOn: Clingendael
           link: https://www.clingendael.org/publication/connecting-shores-assessing-egypts-ict-nearshoring-potential
+        - title: "Cutting through the green hype: the political economy of renewable
+            energy in the United Arab Emirates and Oman"
+          author: Matteo Colombo, Máté Szalai
+          year: 2025
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/cutting-through-green-hype-political-economy-renewable-energy-united-arab-emirates-and
         - title: Storm Over the Nile
           author: Matteo Colombo, Moneera Yassien
           year: 2024
@@ -107,18 +113,6 @@ thinkTankArticles:
           author: Matteo Colombo and Nienke van Heukelingen
           year: 2022
           publishedOn: Clingendael
-        - title: "Connecting Shores: Assessing Egypt’s ICT nearshoring potential A case
-            study on opportunities for Dutch companies"
-          author: Matteo Colombo
-          year: 2025
-          publishedOn: Clingendael
-          link: https://www.clingendael.org/publication/connecting-shores-assessing-egypts-ict-nearshoring-potential
-        - title: "Cutting through the green hype: the political economy of renewable
-            energy in the United Arab Emirates and Oman"
-          author: Matteo Colombo, Máté Szalai
-          year: 2025
-          publishedOn: Clingendael
-          link: https://www.clingendael.org/publication/cutting-through-green-hype-political-economy-renewable-energy-united-arab-emirates-and
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
