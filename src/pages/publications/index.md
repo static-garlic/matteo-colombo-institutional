@@ -21,6 +21,11 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: "Egypt: ICT as a driver for growth"
+          author: Matteo Colombo
+          year: 2025
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/egypt-ict-driver-growth
         - title: "Connecting Shores: Assessing Egypt’s ICT nearshoring potential A case
             study on opportunities for Dutch companies"
           author: Matteo Colombo, Anouk Pronk, Monika Sie Dhian Ho
