@@ -21,6 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: "Jihadism in the Middle East: From hierarchical territorial control to
+            dispersed local insurgency"
+          author: Matteo Colombo
+          year: 2026
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/jihadism-middle-east-hierarchical-territorial-control-dispersed-local-insurgency
         - title: "Egypt: ICT as a driver for growth"
           author: Matteo Colombo
           year: 2025
