@@ -21,6 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: Never waste a good protest. Examining the interplay between elites and
+            social movements in Jordan
+          author: Matteo Colombo
+          year: 2024
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/examining-interplay-between-elites-and-social-movements-jordan
         - title: "Power & Potential: The Economics Of Egyptian Construction And ICT"
           author: Matteo Colombo
           year: 2023
@@ -90,6 +96,11 @@ thinkTankArticles:
           author: Matteo Colombo and Nienke van Heukelingen
           year: 2022
           publishedOn: Clingendael
+        - title: Storm Over the Nile
+          author: Matteo Colombo, Moneera Yassien
+          year: 2024
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/storm-over-nile
       language: English
     - articles:
         - link: https://euractiv.it/section/europea-parlano-i-fatti/news/gas-nel-mediterraneo-orientale-e-ancora-unopportunita-per-leuropa/
