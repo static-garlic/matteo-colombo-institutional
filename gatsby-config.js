@@ -8,9 +8,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
-      options: {
-        indentedSyntax: true
-      },
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
