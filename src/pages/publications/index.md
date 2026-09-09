@@ -21,6 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: Never waste a good protest. Examining the interplay between elites and
+            social movements in Jordan
+          author: Matteo Colombo
+          year: 2024
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/examining-interplay-between-elites-and-social-movements-jordan
         - title: "Power & Potential: The Economics Of Egyptian Construction And ICT"
           author: Matteo Colombo
           year: 2023
