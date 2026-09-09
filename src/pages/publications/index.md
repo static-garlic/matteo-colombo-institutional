@@ -21,6 +21,12 @@ peerArticles:
 thinkTankArticles:
   articlesPerLanguage:
     - articles:
+        - title: "Connecting Shores: Assessing Egypt’s ICT nearshoring potential A case
+            study on opportunities for Dutch companies"
+          author: Matteo Colombo, Anouk Pronk, Monika Sie Dhian Ho
+          year: 2025
+          publishedOn: Clingendael
+          link: https://www.clingendael.org/publication/connecting-shores-assessing-egypts-ict-nearshoring-potential
         - title: Storm Over the Nile
           author: Matteo Colombo, Moneera Yassien
           year: 2024
